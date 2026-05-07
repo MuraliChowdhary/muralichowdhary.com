@@ -239,7 +239,7 @@ export const WORK_PROJECTS: WorkProject[] = [
   {
     slug: "nyasa",
     title: "nyasa",
-    featured: true,
+    featured: false,
     status: "beta",
     oneLiner:
       "Browser SDK that classifies sessions as human, authorized AI agent, or unauthorized bot. 24 signals, 6 detection rules, published to npm.",
