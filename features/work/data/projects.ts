@@ -1,3 +1,4 @@
+import { replyguy } from "./projects/replyguy"
 import { unifyhq } from "./projects/unifyhq"
 import { deliveristChatbot } from "./projects/deliverist-chatbot"
 import { nateeqAi } from "./projects/nateeq-ai"
@@ -22,6 +23,7 @@ export const WORK_PROJECTS = [
   sheetforge,
   hisaab,
   freellm,
+  replyguy,
   buzzwav,
   competitorfinder,
   llmstextGenerator,
