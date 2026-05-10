@@ -4,7 +4,7 @@ export const replyguy: WorkProject = {
   slug: "replyguy",
   title: "ReplyGuy",
   status: "shipped",
-  featured: true,
+  featured: false,
   oneLiner:
     "Chrome extension that scores every tweet in your feed, generates strategic replies using 6 named engagement strategies, and writes in your voice.",
   role: "Solo Builder",
