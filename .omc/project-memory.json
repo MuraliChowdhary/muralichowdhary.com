@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1778280549152,
+  "lastScanned": 1778458905725,
   "projectRoot": "/Users/devanshtiwari/github/portolio-v2",
   "techStack": {
     "languages": [
@@ -89,7 +89,7 @@
       "path": "app",
       "purpose": "Application code",
       "fileCount": 7,
-      "lastAccessed": 1778280549127,
+      "lastAccessed": 1778458905705,
       "keyFiles": [
         "error.tsx",
         "global-error.tsx",
@@ -102,7 +102,7 @@
       "path": "components",
       "purpose": "UI components",
       "fileCount": 25,
-      "lastAccessed": 1778280549128,
+      "lastAccessed": 1778458905705,
       "keyFiles": [
         "brand-context-menu.tsx",
         "command-menu.tsx",
@@ -115,7 +115,7 @@
       "path": "config",
       "purpose": "Configuration files",
       "fileCount": 1,
-      "lastAccessed": 1778280549132,
+      "lastAccessed": 1778458905711,
       "keyFiles": [
         "site.ts"
       ]
@@ -124,21 +124,21 @@
       "path": "data",
       "purpose": "Data files",
       "fileCount": 0,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905712,
       "keyFiles": []
     },
     "features": {
       "path": "features",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905712,
       "keyFiles": []
     },
     "hooks": {
       "path": "hooks",
       "purpose": null,
       "fileCount": 3,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905713,
       "keyFiles": [
         "use-magnetic.ts",
         "use-media-query.ts",
@@ -149,7 +149,7 @@
       "path": "lib",
       "purpose": "Library code",
       "fileCount": 11,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905714,
       "keyFiles": [
         "analytics.ts",
         "copy.ts",
@@ -162,7 +162,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 13,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905714,
       "keyFiles": [
         "bg.png",
         "favicon.ico",
@@ -175,7 +175,7 @@
       "path": "styles",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778280549134,
+      "lastAccessed": 1778458905714,
       "keyFiles": [
         "globals.css"
       ]
@@ -184,7 +184,7 @@
       "path": "types",
       "purpose": "Type definitions",
       "fileCount": 4,
-      "lastAccessed": 1778280549135,
+      "lastAccessed": 1778458905715,
       "keyFiles": [
         "AuthorFrontMatter.ts",
         "PostFrontMatter.ts",
@@ -196,8 +196,8 @@
   "hotPaths": [
     {
       "path": "features/work/data/projects.ts",
-      "accessCount": 4,
-      "lastAccessed": 1778281047084,
+      "accessCount": 5,
+      "lastAccessed": 1778356396719,
       "type": "file"
     },
     {
@@ -222,6 +222,126 @@
       "path": "public/work/nyasa.png",
       "accessCount": 1,
       "lastAccessed": 1778280925351,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/unifyhq.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356185931,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/deliverist-chatbot.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356198515,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/nateeq-ai.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356209840,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/metis.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356244446,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/nyasa.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356279060,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/sheetforge.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356299066,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/hisaab.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356311237,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/freellm.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356323743,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/buzzwav.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356334216,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/competitorfinder.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356347088,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/llmstext-generator.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356361619,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/masari-portal.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356370904,
+      "type": "file"
+    },
+    {
+      "path": "features/work/data/projects/deliverist-mobile.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778356386653,
+      "type": "file"
+    },
+    {
+      "path": "app/(root)/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778364852558,
+      "type": "file"
+    },
+    {
+      "path": "app/(root)/about/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778364852889,
+      "type": "file"
+    },
+    {
+      "path": "features/portfolio/components/about.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778364871012,
+      "type": "file"
+    },
+    {
+      "path": "features/portfolio/components/profile-header.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778364871181,
+      "type": "file"
+    },
+    {
+      "path": "features/portfolio/data/user.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778364875199,
+      "type": "file"
+    },
+    {
+      "path": "data/blog/how-i-validated-metis-before-writing-code.mdx",
+      "accessCount": 1,
+      "lastAccessed": 1778459277058,
+      "type": "file"
+    },
+    {
+      "path": "data/blog/2025.mdx",
+      "accessCount": 1,
+      "lastAccessed": 1778459301391,
       "type": "file"
     }
   ],

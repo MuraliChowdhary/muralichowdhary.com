@@ -22,6 +22,28 @@ export const deliveristChatbot: WorkProject = {
     "Deliverist moves luggage between doors and airports across Saudi Arabia. Their customer-facing product was a static form with 13 fields. Nobody wants to fill that out on their phone at an airport. They needed a single conversational interface for quoting, booking, tracking, and complaints in English and Arabic.",
   whatIBuilt:
     'Conversational commerce layer that turns a chatbot into a transaction channel. Users go from "I want to ship something" to a confirmed booking without leaving the chat. 13-step shipment wizard embedded in the conversation. 5 AI tools for intent routing. RAG pipeline for dynamic pricing where updates happen by uploading a document, zero code changes. NLP entity extraction pre-fills forms from natural language. Speech-to-text with Whisper fallback. Bilingual with RTL.',
+  features: [
+    {
+      title: "13-Step Shipment Wizard",
+      description:
+        "Embedded booking flow inside chat: pickup location, destination, item type, weight, dimensions, packaging, insurance, pickup date, delivery speed, payment method, COD toggle, special instructions, and confirmation. Each step validates via tool calls.",
+    },
+    {
+      title: "RAG Pricing Pipeline",
+      description:
+        "PDF pricing documents are chunked, embedded via OpenAI, and stored in PostgreSQL with pgvector. When a user asks for a quote, the system retrieves the relevant tariff rows and computes a live price. Updating prices requires uploading a new PDF, zero code changes.",
+    },
+    {
+      title: "5 AI Intent Tools",
+      description:
+        "Vercel AI SDK tool calling routes user utterances to the right handler: quote, book, track, complaint, or FAQ. Each tool has a typed Zod schema and runs in parallel where possible. Intent detection happens in a single inference pass.",
+    },
+    {
+      title: "Bilingual RTL with Speech",
+      description:
+        "Full Arabic/English support with RTL layout via logical properties. Speech-to-text via Whisper handles Saudi dialects. Both languages share the same conversation state so users can switch mid-chat.",
+    },
+  ],
   stats: [
     { label: "AI Tools", value: "5" },
     { label: "Wizard Steps", value: "13" },

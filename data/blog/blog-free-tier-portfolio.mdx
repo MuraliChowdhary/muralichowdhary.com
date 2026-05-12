@@ -1,0 +1,289 @@
+---
+title: "How I Added a Blog to My Portfolio on the Free Tier (No Database Required)"
+date: "2026-05-12"
+summary: "A walkthrough of how I built a dual-source blog for my Next.js portfolio that pulls local MDX posts and Medium articles in one unified feed, hosted completely free."
+tags: ["next.js", "portfolio", "blog", "medium", "mdx", "free tier"]
+---
+
+Most portfolio blogs follow one of two paths: a paid CMS like Contentful, or a half-finished markdown setup that never gets updated. I wanted something in between. A real blog I'd actually write in, hosted for free, without any database or subscription.
+
+Here's exactly how I built it.
+
+## The Setup
+
+The blog runs on Next.js 15 with the App Router, deployed on Vercel's free tier. There's no database, no CMS, no API key required. Posts live in two places:
+
+1. Local MDX files in the repo for new posts
+2. Older Medium articles pulled in via RSS
+
+Both sources merge into a single feed, sorted by date.
+
+## Local MDX Posts
+
+MDX is Markdown with JSX support. Each post is a `.mdx` file with frontmatter at the top. I keep them all in `data/blog/` at the root of the project.
+
+A post looks like this:
+
+```mdx
+---
+title: "My Post Title"
+date: "2026-05-12"
+summary: "A short description that shows up in the card."
+tags: ["next.js", "blog"]
+---
+
+Your post content goes here. You can use **markdown** and even <CustomComponents />.
+```
+
+To read these at build time, I have a `getLocalPosts` function in `features/blog/lib/local.ts`:
+
+```ts
+import fs from "fs"
+import path from "path"
+import matter from "gray-matter"
+
+export function getLocalPosts() {
+  const dir = path.join(process.cwd(), "data/blog")
+  const files = fs.readdirSync(dir)
+
+  return files
+    .filter((f) => f.endsWith(".mdx"))
+    .map((file) => {
+      const raw = fs.readFileSync(path.join(dir, file), "utf-8")
+      const { data } = matter(raw)
+      const slug = file.replace(".mdx", "")
+
+      return {
+        source: "local" as const,
+        slug,
+        href: `/blog/${slug}`,
+        title: data.title as string,
+        date: data.date as string,
+        summary: data.summary as string,
+        tags: (data.tags as string[]) ?? [],
+      }
+    })
+}
+```
+
+`gray-matter` handles frontmatter parsing. The `source: "local"` field is important — we'll use it later to tell posts apart in the type system.
+
+Install it with:
+
+```bash
+npm install gray-matter
+```
+
+## Pulling Medium Posts via RSS
+
+Medium exposes a public RSS feed for every account at:
+
+```
+https://medium.com/feed/@yourusername
+```
+
+No API key. No authentication. Just a fetch.
+
+I use `fast-xml-parser` to parse the XML response, and React's `cache` wrapper to make sure the fetch only runs once per request even if multiple components call it.
+
+```ts
+import { cache } from "react"
+import { XMLParser } from "fast-xml-parser"
+
+const MEDIUM_CUTOFF = new Date("2026-03-15")
+
+export const getMediumPosts = cache(async () => {
+  try {
+    const res = await fetch("https://medium.com/feed/@yourusername", {
+      next: { revalidate: 3600 },
+    })
+    const xml = await res.text()
+    const parser = new XMLParser()
+    const result = parser.parse(xml)
+    const items = result?.rss?.channel?.item ?? []
+
+    return (Array.isArray(items) ? items : [items])
+      .filter((item) => new Date(item.pubDate) < MEDIUM_CUTOFF)
+      .map((item) => ({
+        source: "medium" as const,
+        href: item.link as string,
+        title: item.title as string,
+        date: item.pubDate as string,
+        summary: (item.description as string)
+          ?.replace(/<[^>]+>/g, "")
+          .slice(0, 160) ?? "",
+      }))
+  } catch {
+    return []
+  }
+})
+```
+
+Install the parser:
+
+```bash
+npm install fast-xml-parser
+```
+
+The `try/catch` is intentional. If Medium is down or the fetch fails, the page still renders — it just shows local posts only.
+
+## The Cutoff Date
+
+Here's the problem: if you write a post on Medium and also import it here, it shows up twice.
+
+The cutoff date solves this. Set `MEDIUM_CUTOFF` to the date you started writing natively on the portfolio. Anything published on Medium before that date gets pulled in. Anything after that date you write locally as an MDX file instead.
+
+No deduplication logic. No slug matching. Just a clean split by date.
+
+## Typing the Posts
+
+Since local and Medium posts have different shapes, use a discriminated union:
+
+```ts
+// features/blog/types.ts
+
+export type LocalPost = {
+  source: "local"
+  slug: string
+  href: string
+  title: string
+  date: string
+  summary: string
+  tags: string[]
+}
+
+export type MediumPost = {
+  source: "medium"
+  href: string
+  title: string
+  date: string
+  summary: string
+}
+
+export type Post = LocalPost | MediumPost
+```
+
+The `source` field lets you narrow the type anywhere in the UI. Only local posts have `slug` and `tags`, so you can check `post.source === "local"` before accessing them.
+
+## Merging the Sources
+
+One function combines everything and sorts by date:
+
+```ts
+// features/blog/lib/posts.ts
+
+import { getLocalPosts } from "./local"
+import { getMediumPosts } from "./medium"
+
+export async function getAllPosts() {
+  const [local, medium] = await Promise.all([
+    getLocalPosts(),
+    getMediumPosts(),
+  ])
+
+  return [...local, ...medium].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  )
+}
+```
+
+`getLocalPosts` is synchronous (it reads from the filesystem), but wrapping it in `Promise.all` keeps the pattern consistent and makes it easy to add more sources later.
+
+## The Blog Page
+
+The key detail on the page is `revalidate`:
+
+```ts
+// app/(root)/blog/page.tsx
+
+export const revalidate = 3600
+
+export default async function BlogPage() {
+  const posts = await getAllPosts()
+  return <PostList posts={posts} />
+}
+```
+
+This tells Next.js to regenerate the page at most once per hour. So if you publish a new Medium post, it shows up on the portfolio within an hour — no redeployment needed. On Vercel's free tier, ISR works out of the box.
+
+## Directory Structure
+
+Everything lives under `features/blog/`:
+
+```
+features/
+  blog/
+    components/
+      post-card.tsx
+      post-list.tsx
+    lib/
+      local.ts
+      medium.ts
+      posts.ts
+    types.ts
+data/
+  blog/
+    my-first-post.mdx
+    another-post.mdx
+```
+
+This is domain-driven organization. All blog logic is colocated. The `app/` directory only contains route entry points — the actual work happens in `features/`.
+
+## Rendering MDX
+
+For individual post pages, use `next-mdx-remote`:
+
+```bash
+npm install next-mdx-remote
+```
+
+```ts
+// app/(root)/blog/[slug]/page.tsx
+
+import { MDXRemote } from "next-mdx-remote/rsc"
+import { getLocalPosts } from "@/features/blog/lib/local"
+import fs from "fs"
+import path from "path"
+
+export async function generateStaticParams() {
+  const posts = getLocalPosts()
+  return posts.map((p) => ({ slug: p.slug }))
+}
+
+export default async function PostPage({
+  params,
+}: {
+  params: { slug: string }
+}) {
+  const filePath = path.join(process.cwd(), "data/blog", `${params.slug}.mdx`)
+  const raw = fs.readFileSync(filePath, "utf-8")
+
+  return (
+    <article>
+      <MDXRemote source={raw} />
+    </article>
+  )
+}
+```
+
+`generateStaticParams` pre-renders every local post at build time. Medium posts link out directly, so they don't need their own pages.
+
+## What I'd Do Differently
+
+The cutoff date approach works, but it's a blunt instrument. If you ever want to cross-post something — write it natively first, then publish on Medium — there's no clean way to deduplicate.
+
+A better approach is a small blocklist in the Medium fetcher:
+
+```ts
+const BLOCKED_SLUGS = ["my-post-title", "another-post"]
+
+.filter((item) => !BLOCKED_SLUGS.some((s) => item.link.includes(s)))
+```
+
+That gives you per-post control without abandoning the RSS approach entirely.
+
+## The Result
+
+A blog that costs nothing to run, has no third-party dependencies beyond npm packages, works offline in development, and deploys in seconds. Local posts get MDX with full component support. Medium posts get surfaced automatically. The whole thing is statically generated with hourly revalidation.
+
+For a portfolio, that's exactly the right tradeoff.
