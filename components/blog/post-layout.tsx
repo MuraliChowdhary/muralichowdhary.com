@@ -76,7 +76,7 @@ export default function PostLayout({
 
       {/* Prose content area */}
       <div className={[
-        "prose prose-sm max-w-none px-4 font-mono dark:prose-invert",
+        "prose prose-sm max-w-2xl mx-auto px-4 font-mono dark:prose-invert",
         // Base text — mono, muted (matches ProseMono used across portfolio)
         "text-sm text-muted-foreground",
         // Headings — sans, foreground, tight tracking
@@ -101,7 +101,7 @@ export default function PostLayout({
         // Table — reset prose defaults, our Table components handle styling
         "[&_table]:!my-0 [&_thead]:!border-none [&_tr]:!border-none [&_th]:!px-4 [&_th]:!py-3 [&_td]:!px-4 [&_td]:!py-3",
       ].join(" ")}>
-        <h1 className="font-sans text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+        <h1 className="font-sans text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
           {title}
         </h1>
 
