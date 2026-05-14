@@ -6,6 +6,7 @@ import { metis } from "./projects/metis"
 import { nyasa } from "./projects/nyasa"
 import { sheetforge } from "./projects/sheetforge"
 import { hisaab } from "./projects/hisaab"
+import { daysleft } from "./projects/daysleft"
 import { freellm } from "./projects/freellm"
 import { buzzwav } from "./projects/buzzwav"
 import { competitorfinder } from "./projects/competitorfinder"
@@ -22,6 +23,7 @@ export const WORK_PROJECTS = [
   nyasa,
   sheetforge,
   hisaab,
+  daysleft,
   freellm,
   replyguy,
   buzzwav,
