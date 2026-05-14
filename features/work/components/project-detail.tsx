@@ -9,6 +9,7 @@ import { HighlightedText } from "./highlighted-text"
 import { StatusBadge } from "./status-badge"
 import type { WorkProject } from "../types/project"
 import { WORK_PROJECTS } from "../data/projects"
+import { getTechIconUrl } from "../data/tech-icons"
 
 const PROJECT_BLOG_LINKS: Record<string, string> = {
   freellm: "/blog/freellm-one-endpoint-five-providers",
@@ -265,11 +266,26 @@ export function ProjectDetail({ project }: { project: WorkProject }) {
           </Link>
         </div>
         <ul className="flex flex-wrap gap-1.5">
-          {project.tech.map((t) => (
-            <li key={t} className="flex">
-              <Tag>{t}</Tag>
-            </li>
-          ))}
+          {project.tech.map((t) => {
+            const iconUrl = getTechIconUrl(t)
+            return (
+              <li key={t} className="flex">
+                <Tag className={iconUrl ? "gap-1.5" : undefined}>
+                  {iconUrl && (
+                    <img
+                      src={iconUrl}
+                      alt=""
+                      width={12}
+                      height={12}
+                      aria-hidden="true"
+                      className="shrink-0 grayscale opacity-60 dark:invert dark:opacity-80"
+                    />
+                  )}
+                  {t}
+                </Tag>
+              </li>
+            )
+          })}
         </ul>
         {PROJECT_BLOG_LINKS[project.slug] && (
           <p className="mt-4 font-mono text-xs text-muted-foreground">

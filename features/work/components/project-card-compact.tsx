@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowUpRightIcon } from "lucide-react"
 import { Tag } from "@/components/ui/tag"
 import type { WorkProject } from "../types/project"
+import { getTechIconUrl } from "../data/tech-icons"
 
 export function ProjectCardCompact({ project }: { project: WorkProject }) {
   return (
@@ -22,11 +23,26 @@ export function ProjectCardCompact({ project }: { project: WorkProject }) {
         </p>
 
         <ul className="mt-2 flex flex-wrap gap-1">
-          {project.tech.slice(0, 4).map((t) => (
-            <li key={t} className="flex">
-              <Tag className="px-1.5 py-0 text-[10px]">{t}</Tag>
-            </li>
-          ))}
+          {project.tech.slice(0, 4).map((t) => {
+            const iconUrl = getTechIconUrl(t)
+            return (
+              <li key={t} className="flex">
+                <Tag className={`px-1.5 py-0 text-[10px]${iconUrl ? " gap-1" : ""}`}>
+                  {iconUrl && (
+                    <img
+                      src={iconUrl}
+                      alt=""
+                      width={10}
+                      height={10}
+                      aria-hidden="true"
+                      className="shrink-0 grayscale opacity-60 dark:invert dark:opacity-80"
+                    />
+                  )}
+                  {t}
+                </Tag>
+              </li>
+            )
+          })}
         </ul>
       </div>
 

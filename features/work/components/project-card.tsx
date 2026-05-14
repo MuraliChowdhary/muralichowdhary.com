@@ -7,6 +7,7 @@ import { Tag } from "@/components/ui/tag"
 import { useTilt } from "@/hooks/use-tilt"
 import { ProjectThumbnail } from "./project-thumbnail"
 import type { WorkProject } from "../types/project"
+import { getTechIconUrl } from "../data/tech-icons"
 
 export function ProjectCard({ project }: { project: WorkProject }) {
   const { ref, handleMove, handleLeave } = useTilt(5)
@@ -67,11 +68,26 @@ export function ProjectCard({ project }: { project: WorkProject }) {
           )}
 
           <ul className="mt-2 flex flex-wrap gap-1">
-            {project.tech.slice(0, 4).map((t) => (
-              <li key={t} className="flex">
-                <Tag className="px-1.5 py-0 text-[10px]">{t}</Tag>
-              </li>
-            ))}
+            {project.tech.slice(0, 4).map((t) => {
+              const iconUrl = getTechIconUrl(t)
+              return (
+                <li key={t} className="flex">
+                  <Tag className={`px-1.5 py-0 text-[10px]${iconUrl ? " gap-1" : ""}`}>
+                    {iconUrl && (
+                      <img
+                        src={iconUrl}
+                        alt=""
+                        width={10}
+                        height={10}
+                        aria-hidden="true"
+                        className="shrink-0 grayscale opacity-60 dark:invert dark:opacity-80"
+                      />
+                    )}
+                    {t}
+                  </Tag>
+                </li>
+              )
+            })}
             {project.tech.length > 4 && (
               <li className="flex">
                 <Tag className="px-1.5 py-0 text-[10px]">+{project.tech.length - 4}</Tag>
