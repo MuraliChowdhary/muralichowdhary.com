@@ -1,19 +1,40 @@
 import { Metadata } from "next"
+import dynamic from "next/dynamic"
 import { ProfileHeader } from "@/features/portfolio/components/profile-header"
 import { NowTicker } from "@/features/portfolio/components/now-ticker"
 import { Overview } from "@/features/portfolio/components/overview"
 import { SocialLinks } from "@/features/portfolio/components/social-links"
 import { About } from "@/features/portfolio/components/about"
-import { Testimonials } from "@/features/portfolio/components/testimonials"
-import { TechStack } from "@/features/portfolio/components/tech-stack"
-import { WorkPreview } from "@/features/portfolio/components/work-preview"
-import { HowIWork } from "@/features/portfolio/components/how-i-work"
-import { BlogPreview } from "@/features/portfolio/components/blog-preview"
-import { Experiences } from "@/features/portfolio/components/experiences"
-import { CTA } from "@/features/portfolio/components/cta"
-import { GitHubContributions } from "@/features/portfolio/components/github-contributions"
 import { ScrollReveal } from "@/components/scroll-reveal"
 import { cn } from "@/lib/utils"
+
+// Below-the-fold sections — code-split so framer-motion and other heavy deps
+// stay out of the initial JS chunk. ssr:true keeps HTML in the document so
+// SEO, OG previews, and no-JS rendering all work.
+const Testimonials = dynamic(() =>
+  import("@/features/portfolio/components/testimonials").then((m) => m.Testimonials)
+)
+const GitHubContributions = dynamic(() =>
+  import("@/features/portfolio/components/github-contributions").then((m) => m.GitHubContributions)
+)
+const TechStack = dynamic(() =>
+  import("@/features/portfolio/components/tech-stack").then((m) => m.TechStack)
+)
+const WorkPreview = dynamic(() =>
+  import("@/features/portfolio/components/work-preview").then((m) => m.WorkPreview)
+)
+const HowIWork = dynamic(() =>
+  import("@/features/portfolio/components/how-i-work").then((m) => m.HowIWork)
+)
+const BlogPreview = dynamic(() =>
+  import("@/features/portfolio/components/blog-preview").then((m) => m.BlogPreview)
+)
+const Experiences = dynamic(() =>
+  import("@/features/portfolio/components/experiences").then((m) => m.Experiences)
+)
+const CTA = dynamic(() =>
+  import("@/features/portfolio/components/cta").then((m) => m.CTA)
+)
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -25,10 +46,11 @@ export default function HomePage() {
       <ProfileHeader />
       <NowTicker />
 
-      <ScrollReveal>
-        <Overview />
-        <SocialLinks />
-      </ScrollReveal>
+      {/* Above-the-fold: render plain so animation-timeline can't leave it
+          stuck at opacity 0 on tall viewports where the section never crosses
+          the entry edge. */}
+      <Overview />
+      <SocialLinks />
       <Line />
 
       <ScrollReveal delay={0.05}>

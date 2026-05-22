@@ -1,7 +1,3 @@
-"use client"
-
-import { useRef } from "react"
-import { motion, useInView, useReducedMotion } from "framer-motion"
 import { cn } from "@/lib/utils"
 
 type ScrollRevealProps = {
@@ -10,29 +6,15 @@ type ScrollRevealProps = {
   delay?: number
 }
 
+// Server component. Uses CSS scroll-driven animations where supported and
+// renders content visible-by-default everywhere else. No JS, no framer-motion.
 export function ScrollReveal({ children, className, delay = 0 }: ScrollRevealProps) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-60px" })
-  const shouldReduceMotion = useReducedMotion()
-
-  if (shouldReduceMotion) {
-    return <div className={className}>{children}</div>
-  }
-
   return (
-    <motion.div
-      ref={ref}
-      className={cn(className)}
-      initial={{ opacity: 0, y: 24 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
-      transition={{
-        type: "spring",
-        stiffness: 120,
-        damping: 20,
-        delay,
-      }}
+    <div
+      className={cn("scroll-reveal", className)}
+      style={delay ? { animationDelay: `${delay}s` } : undefined}
     >
       {children}
-    </motion.div>
+    </div>
   )
 }

@@ -219,6 +219,36 @@ figure[data-rehype-pretty-code-figure] code {
   }
 }
 
+/* ScrollReveal — CSS scroll-driven entrance animation.
+   Defaults to visible so browsers without animation-timeline (Firefox/Safari)
+   render content immediately. Chromium browsers fade in as the element enters. */
+.scroll-reveal {
+  opacity: 1;
+  transform: none;
+}
+
+@supports (animation-timeline: view()) {
+  .scroll-reveal {
+    animation: scroll-reveal 1s both;
+    animation-timeline: view();
+    /* cover-based range: an element already fully in the viewport at load
+       (e.g. tall monitor + short page) is past `cover 25%` and held at the
+       `to` keyframe, so it never gets stuck invisible. */
+    animation-range: cover 0% cover 25%;
+  }
+}
+
+@keyframes scroll-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* Global focus-visible ring for keyboard navigation */
 a:focus-visible,
 button:focus-visible,
