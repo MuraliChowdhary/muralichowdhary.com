@@ -2,9 +2,9 @@ export const siteConfig = {
   // Site Info
   siteUrl: "https://www.devanshtiwari.com",
   name: "Devansh Tiwari",
-  title: "Devansh Tiwari — Product Engineer at Metis",
+  title: "Devansh Tiwari — AI Product Engineer",
   description:
-    "Building AI stock analysis at Metis. Writing about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end.",
+    "AI product engineer. Writing about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end to end. Available for freelance and consulting.",
   language: "en-US",
   locale: "en_US",
 

@@ -27,11 +27,9 @@ export const metadata: Metadata = {
     "LLM Gateway",
     "Multi-Provider AI Routing",
     "AI Cost Optimization",
-    "Metis AI",
-    "trymetis",
-    "FreeLLM",
-    "Product Engineer India",
+    "AI Product Engineer",
     "AI Engineer India",
+    "Freelance AI Engineer",
   ],
   authors: [{ name: siteConfig.author, url: siteConfig.siteUrl }],
   creator: siteConfig.author,
@@ -132,9 +130,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 url: "https://www.devanshtiwari.com",
                 mainEntityOfPage: "https://www.devanshtiwari.com/about",
                 image: "https://www.devanshtiwari.com/profile.png",
-                jobTitle: "Product Engineer",
+                jobTitle: "AI Product Engineer",
                 description:
-                  "Product engineer at Metis, building AI stock analysis for Indian swing traders. Focused on cost-optimized LLM infrastructure and multi-provider routing. Previously shipped AI products for Saudi logistics and e-commerce personalization at Helium.",
+                  "AI product engineer focused on cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end to end. NextLeap PM Fellowship graduate. Available for freelance and consulting.",
                 email: "mailto:devanshtiwari365@gmail.com",
                 telephone: "+919560879697",
                 address: {
@@ -146,18 +144,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   "@type": "CollegeOrUniversity",
                   name: "Inderprastha Engineering College",
                   sameAs: "https://www.ipec.org.in/",
-                },
-                worksFor: {
-                  "@type": "Organization",
-                  name: "Metis",
-                  url: "https://trymetis.app",
-                  description:
-                    "AI-powered stock analysis for Indian swing traders",
-                },
-                founder: {
-                  "@type": "Organization",
-                  name: "Metis",
-                  url: "https://trymetis.app",
                 },
                 sameAs: [
                   "https://github.com/Devansh-365",
@@ -192,16 +178,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 hasOccupation: [
                   {
                     "@type": "Occupation",
-                    name: "Product Engineer",
+                    name: "AI Product Engineer",
                     occupationalCategory: "15-1252.00",
                     skills:
                       "TypeScript, React, Next.js, Node.js, Python, AI/LLM Systems, RAG, PostgreSQL",
                   },
                   {
                     "@type": "Occupation",
-                    name: "Product Engineer",
+                    name: "AI Product Engineer",
                     description:
-                      "Building AI infrastructure and end-to-end products at Metis, with a focus on cost-optimized LLM routing and Indian market distribution.",
+                      "Building AI infrastructure and end-to-end products, with a focus on cost-optimized LLM routing and multi-provider orchestration.",
                   },
                 ],
               }),

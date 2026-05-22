@@ -1,13 +1,12 @@
 # Devansh Tiwari — Full Context
 
-> AI Product Builder. I ship AI products end-to-end, from user research to production.
+> AI Product Engineer. Available for freelance and consulting. I ship AI products end-to-end, from user research to production.
 
 ## Identity
 
 Name: Devansh Tiwari
 Location: Delhi NCR, India
-Role: AI Product Builder (PM + Engineer)
-Currently: Co-Founder @ Metis, NextLeap PM Fellow
+Role: AI Product Engineer. Available for freelance and consulting.
 Email: devanshtiwari365@gmail.com
 Website: https://www.devanshtiwari.com
 
@@ -21,8 +20,8 @@ Website: https://www.devanshtiwari.com
 
 ## Detailed Experience
 
-### Metis — Co-Founder (Feb 2026 - Present)
-AI-powered stock analysis for Indian swing traders.
+### Metis — Side Project (Feb 2026 to Apr 2026)
+AI-powered stock analysis for Indian swing traders. Stopped Apr 2026 to focus on other engagements.
 - Drove product-led acquisition: analyzed 10+ competitors, identified 5 zero-competition keyword gaps, shipped 7 free tools targeting 650K+ monthly searches
 - Optimized unit economics: hybrid model routing reduced per-session API cost by 52% ($0.25 to $0.12)
 - Instrumented 18 AARRR metrics across 21 touchpoints
@@ -67,7 +66,7 @@ TypeScript, JavaScript, Python, React, Next.js, Node.js, Tailwind CSS, OpenAI/LL
 ## Target Domains
 
 1. E-commerce & Retail Tech — built personalization systems, recommendation engines, Shopify SDKs
-2. Fintech & Financial Behavior Products — founded Zashit, currently building Metis for traders
+2. Fintech & Financial Behavior Products — founded Zashit, built Metis (side project, ended Apr 2026)
 3. AI/ML Products — hands-on with LLM APIs, RAG systems, AI agents
 4. SaaS & Developer Tools — shipped 8 enterprise products across Saudi Arabia
 

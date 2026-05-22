@@ -85,7 +85,7 @@ export async function GET() {
         >
           <span>blog.devanshtiwari.com</span>
           <span style={{ color: "rgba(232,232,232,0.15)" }}>|</span>
-          <span>Product Engineer @ Metis</span>
+          <span>AI Product Engineer</span>
         </div>
       </div>
     ),

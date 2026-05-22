@@ -8,6 +8,7 @@ const STATUS_CONFIG: Record<
   beta: { label: "Beta", dotClass: "bg-amber-500" },
   "in-progress": { label: "In Progress", dotClass: "bg-sky-500" },
   archived: { label: "Archived", dotClass: "bg-muted-foreground" },
+  ended: { label: "Ended", dotClass: "bg-muted-foreground" },
 }
 
 export function StatusBadge({ status }: { status: ProjectStatus }) {

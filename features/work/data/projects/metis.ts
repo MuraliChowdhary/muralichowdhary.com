@@ -4,13 +4,13 @@ export const metis: WorkProject = {
   slug: "metis",
   title: "Metis",
   featured: true,
-  status: "beta",
+  status: "ended",
   thumbnail: "/work/metis.png",
   oneLiner:
-    "AI stock analysis for Indian swing traders. 70+ traders surveyed, 2,100+ stocks covered, 25 beta users on WhatsApp. From concept to daily-use product in 48 days.",
+    "Side project, Feb to Apr 2026. AI stock analysis for Indian swing traders. 70+ traders surveyed, 2,100+ stocks covered, 25 beta users on WhatsApp. From concept to daily-use product in 48 days.",
   role: "Product Engineer",
   company: "Metis",
-  period: "Feb 2026 to Present",
+  period: "Feb 2026 to Apr 2026",
   liveUrl: "https://trymetis.app",
   highlights: [
     "Cut per-session API cost from $0.25 to $0.06 (76% savings) via multi-provider LLM routing with zero quality regression",
@@ -51,9 +51,9 @@ export const metis: WorkProject = {
     },
   ],
   problem:
-    "91% of Indian retail traders lose money (SEBI 2024 study). I surveyed 70+ traders to find out why. 68% said wrong entry/exit timing is their biggest pain. The tools that exist (Screener.in, TradingView, Chartink) give raw data but not analysis. They show you RSI is 58. They don't tell you what that means for your trade, where to enter, where to place a stop loss, or how many shares to buy given your capital. And no tool solves the deeper problem: traders don't know what to look at on any given morning.",
+    "91% of Indian retail traders lose money (SEBI 2024 study). I surveyed 70+ traders to find out why. 68% said wrong entry/exit timing was their biggest pain. The tools that existed (Screener.in, TradingView, Chartink) gave raw data but not analysis. They showed you RSI is 58. They didn't tell you what that meant for your trade, where to enter, where to place a stop loss, or how many shares to buy given your capital. And no tool solved the deeper problem: traders don't know what to look at on any given morning.",
   whatIBuilt:
-    "AI chat that combines real-time NSE and BSE data with actual analysis. Fetches live OHLCV, computes 7 technical indicators (RSI, MACD, Bollinger Bands, ATR, SMA, EMA, pivot points), pulls FII/DII flows, option chain (PCR, max pain, OI), delivery percentages, and macro context (DXY, VIX, crude, gold), then generates a structured verdict with confidence score (0-10 weighted across 5 factors), interest zones, risk levels, and position sizing based on your capital. Rendered as an interactive widget with candlestick charts, technical panels, and flow data, not just text. Built Market Pulse as a daily habit loop with sector heatmap, leaders/laggards drill-down, AI-generated morning briefs, and 8:30 AM IST push notifications. Added weekly streak system (Duolingo-style with freeze mechanic) and Quick-Ask inline analysis cards. Natural language stock screener over a 2,132-stock NSE universe plus BSE. Shareable analysis pages with SEO (Article JSON-LD, dynamic sitemap) that double as organic landing pages. Config-driven provider registry with Gemini → Groq → Anthropic fallback chain and three cost-optimization passes that dropped per-session cost from $0.25 to $0.06-0.08 (68-76% savings) via model routing, prompt caching, context slicing, and Gemini-first utility routing. Email OTP + Google SSO, 6-layer security model (input, data, auth, file, infrastructure, ops), dual-layer analytics (PostHog AARRR + in-DB columns), and an admin panel for beta ops. 7 free SEO tools shipped (Position Size, Risk-Reward, Swing Profit, Capital Gains, Stock Average, Pivot Point, F&O Turnover) targeting 650K+ monthly searches, with 30 total planned via a template-first build.",
+    "Side project I worked on from Feb to Apr 2026. Stopped to focus on other engagements. AI chat that combined real-time NSE and BSE data with actual analysis. Fetched live OHLCV, computed 7 technical indicators (RSI, MACD, Bollinger Bands, ATR, SMA, EMA, pivot points), pulled FII/DII flows, option chain (PCR, max pain, OI), delivery percentages, and macro context (DXY, VIX, crude, gold), then generated a structured verdict with confidence score (0-10 weighted across 5 factors), interest zones, risk levels, and position sizing based on your capital. Rendered as an interactive widget with candlestick charts, technical panels, and flow data, not just text. Built Market Pulse as a daily habit loop with sector heatmap, leaders/laggards drill-down, AI-generated morning briefs, and 8:30 AM IST push notifications. Added weekly streak system (Duolingo-style with freeze mechanic) and Quick-Ask inline analysis cards. Natural language stock screener over a 2,132-stock NSE universe plus BSE. Shareable analysis pages with SEO (Article JSON-LD, dynamic sitemap) that doubled as organic landing pages. Config-driven provider registry with Gemini, Groq, and Anthropic fallback chain and three cost-optimization passes that dropped per-session cost from $0.25 to $0.06-0.08 (68-76% savings) via model routing, prompt caching, context slicing, and Gemini-first utility routing. Email OTP + Google SSO, 6-layer security model (input, data, auth, file, infrastructure, ops), dual-layer analytics (PostHog AARRR + in-DB columns), and an admin panel for beta ops. 7 free SEO tools shipped (Position Size, Risk-Reward, Swing Profit, Capital Gains, Stock Average, Pivot Point, F&O Turnover) targeting 650K+ monthly searches.",
   stats: [
     { label: "Traders Surveyed", value: "70+" },
     { label: "NSE + BSE Stocks", value: "2,100+" },

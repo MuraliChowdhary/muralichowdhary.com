@@ -7,7 +7,7 @@ import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "Resume",
-  description: `${siteConfig.name}'s resume — product engineer at Metis. 50+ shipped products, end-to-end delivery across engineering and product, and a focus on cost-optimized LLM infrastructure.`,
+  description: `${siteConfig.name}'s resume — AI Product Engineer. 50+ shipped products, end-to-end delivery across engineering and product, and a focus on cost-optimized LLM infrastructure.`,
   alternates: {
     canonical: "/resume",
   },

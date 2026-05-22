@@ -12,12 +12,12 @@ import { generateBreadcrumbs } from "@/lib/schema"
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Building AI at Metis. Previously shipped enterprise products for Saudi Arabia and drove e-commerce personalization at Helium.",
+    "AI Product Engineer. Previously shipped enterprise products for Saudi Arabia, drove e-commerce personalization at Helium, and co-founded Metis.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Devansh Tiwari",
     description:
-      "Product engineer at Metis. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end.",
+      "AI Product Engineer available for freelance and consulting. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end.",
     type: "profile",
     url: `${siteConfig.siteUrl}/about`,
   },
@@ -56,8 +56,8 @@ const TIMELINE = [
   },
   {
     year: "2026",
-    label: "Metis + product thinking",
-    text: "Co-founding Metis, an AI stock analysis tool for Indian traders. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. Joined NextLeap PM Fellowship because every time I felt stuck, it wasn't because I couldn't build. It was because I wasn't strong at selecting the right problems.",
+    label: "Metis + NextLeap",
+    text: "Co-founded Metis, an AI stock analysis tool for Indian traders (side project, Feb to Apr 2026). Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. Completed NextLeap PM Fellowship (Apr 2026) because every time I felt stuck, it wasn't because I couldn't build. It was because I wasn't strong at selecting the right problems.",
   },
 ]
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
     name: "About Devansh Tiwari",
     url: "https://www.devanshtiwari.com/about",
     description:
-      "Product engineer at Metis based in Delhi NCR, India. Builds AI products end-to-end, from user research to cost-optimized production.",
+      "AI Product Engineer based in Delhi NCR, India. Builds AI products end-to-end, from user research to cost-optimized production. Available for freelance and consulting.",
   }
 
   const breadcrumbs = generateBreadcrumbs([

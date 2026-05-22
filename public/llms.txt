@@ -1,25 +1,25 @@
 # Devansh Tiwari
 
-> Product engineer at Metis, building AI stock analysis for Indian swing traders. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end. Based in Delhi NCR, India.
+> AI Product Engineer. Available for freelance and consulting. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end. Based in Delhi NCR, India.
 
 ## Identity
 
 - Full Name: Devansh Tiwari
 - Location: Delhi NCR, India
-- Role: Product Engineer, Co-Founder @ Metis
+- Role: AI Product Engineer. Available for freelance and consulting.
 - Education: B.Tech Information Technology, Inderprastha Engineering College (2021-2025); Product Manager Fellowship, NextLeap (2026)
 
 ## About
 
 Devansh Tiwari is a product engineer who sits at the intersection of product thinking and AI infrastructure. He started coding to pay his own college fees, taught himself through open source, and built a freelance practice before moving into product roles at AI startups.
 
-At Helium, he built e-commerce personalization systems that delivered 20-30% merchant sales uplift and reduced recommendation latency by 60%. He co-founded Zashit (AI credit card reward optimizer, applied to YC) and is currently co-founding Metis (trymetis.app), an AI-powered stock analysis tool for Indian swing traders.
+At Helium, he built e-commerce personalization systems that delivered 20-30% merchant sales uplift and reduced recommendation latency by 60%. He co-founded Zashit (AI credit card reward optimizer, applied to YC) and built Metis (trymetis.app), an AI-powered stock analysis tool for Indian swing traders (side project, Feb to Apr 2026).
 
 He has shipped 50+ products, 8 across Saudi Arabia, and specializes in building AI products from zero to one. He builds the full technical stack (infra, AI, frontend) and also thinks product (user research, validation, prioritization).
 
 ## Experience
 
-- Co-Founder @ Metis (Feb 2026 - Present): AI-powered stock analysis for Indian swing traders. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. 7 free tools targeting 650K+ monthly searches.
+- Metis (Feb 2026 to Apr 2026, side project): AI-powered stock analysis for Indian swing traders. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. 7 free tools targeting 650K+ monthly searches. Stopped Apr 2026.
 - Product Manager Fellow @ NextLeap (Jan 2026 - Apr 2026): Product discovery, prioritization frameworks, user interviews, outcome metrics.
 - Freelance Software Engineer @ OSIT (Jun 2024 - Dec 2025): 8 enterprise products across 5 domains for Saudi Arabia. Built UnifyHQ (471 API endpoints, 194 pages, 26 days), Nateeq AI (multi-tenant voice AI platform, 6 weeks), Deliverist AI Chatbot (conversational commerce with RAG).
 - Software Engineer (Product-Facing) @ Helium (Apr 2024 - Aug 2025): E-commerce personalization. Built recommendation engines, behavioral tracking. 20-30% merchant sales uplift. 60% latency reduction.
@@ -46,7 +46,7 @@ He has shipped 50+ products, 8 across Saudi Arabia, and specializes in building 
 
 ## Key Projects
 
-- Metis (trymetis.app): AI stock analysis for Indian traders. 70+ traders surveyed. 7 technical indicators. Multi-model (Claude + Gemini).
+- Metis (trymetis.app, side project Feb to Apr 2026): AI stock analysis for Indian traders. 70+ traders surveyed. 7 technical indicators. Multi-model (Claude + Gemini).
 - UnifyHQ: Enterprise facility management. 471 API endpoints, 194 pages, 8 languages, built in 26 days.
 - Nateeq AI: White-label voice AI platform. Multi-tenant SaaS. ElevenLabs ConvAI. Built in 6 weeks.
 - Deliverist AI Chatbot: Conversational commerce for logistics. RAG pricing, 5 AI tools, bilingual.

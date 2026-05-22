@@ -60,8 +60,7 @@ export default async function Image() {
               maxWidth: "800px",
             }}
           >
-            AI Product Builder. I ship AI products end-to-end, from user
-            research to production.
+            AI Product Engineer. 50+ products shipped end to end.
           </div>
         </div>
 
@@ -75,8 +74,6 @@ export default async function Image() {
           }}
         >
           <span>www.devanshtiwari.com</span>
-          <span style={{ color: "rgba(232,232,232,0.15)" }}>|</span>
-          <span>Co-Founder @ Metis</span>
           <span style={{ color: "rgba(232,232,232,0.15)" }}>|</span>
           <span>50+ products shipped</span>
         </div>

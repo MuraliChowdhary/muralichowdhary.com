@@ -5,37 +5,25 @@ export const USER = {
   username: "devansh-365",
   gender: "male" as const,
   pronouns: "he/him",
-  bio: "Product engineer at Metis. I ship AI products end-to-end, from user research to cost-optimized production.",
+  bio: "AI product engineer. 50+ shipped products across AI infra, e-commerce personalization, and SaaS. Available for freelance and consulting engagements.",
   flipSentences: [
-    "Product Engineer @ Metis",
+    "AI Product Engineer",
     "AI Infrastructure · Cost Optimization",
     "PM + Engineer who ships.",
-    "Building AI products end-to-end.",
+    "Available for freelance and consulting.",
   ],
   address: "Delhi NCR, India",
   phoneNumber: "",
   email: "devanshtiwari365@gmail.com",
   website: "https://www.devanshtiwari.com",
-  jobTitle: "Product Engineer",
-  jobs: [
-    {
-      title: "Co-Founder",
-      company: "Metis",
-      website: "https://trymetis.app",
-      experienceId: "metis",
-    },
-    {
-      title: "Product Manager Fellow",
-      company: "NextLeap",
-      website: "https://www.nextleap.app",
-    },
-  ],
+  jobTitle: "AI Product Engineer",
+  jobs: [] as Array<{ title: string; company: string; website: string; experienceId?: string }>,
   about: `- I started coding to pay my own college fees. No passion story. Just guilt from spending my parents' money on JEE coaching that didn't work out, and a decision to figure it out myself.
 - Taught myself through YouTube tutorials and docs. Got into open source, landed my first freelance client, and slowly built up to **50+ clients globally**. At peak I was closing 5 to 6 lakh projects and earning close to 2 lakh/month.
 - But I only ever saw version one. Never scale. Never retention. I knew how to build. I didn't know how to think long term. That pushed me toward product.
 - Joined **[Helium](https://www.helium.sh)**, an AI startup doing e-commerce personalization. Built recommendation engines, behavioral tracking, and reduced recommendation latency by 60%. Merchants saw 20 to 30% sales uplift. First time my work directly moved business numbers.
 - Co-founded **Zashit**, an AI credit card reward optimizer. 50+ waitlist signups. Built the MVP including an OCR pipeline for transaction data. Applied to YC. Eventually shut it down over cofounder alignment issues. Learned more from that failure than any success.
-- Now co-founding **[Metis](https://trymetis.app)**, an AI stock analysis tool for Indian swing traders. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days.
+- From February to April 2026, I worked on **[Metis](https://trymetis.app)**, an AI stock analysis tool for Indian swing traders, as a side project. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. Stopped working on it in April 2026.
 - I moved to product not because it's trendy. But because every time I felt stuck, it wasn't because I couldn't build. It was because I wasn't strong at selecting the right problems. Product thinking directly attacks that weakness.`,
   socialLinks: [
     { title: "GitHub", href: "https://github.com/Devansh-365", icon: "github" },
@@ -51,11 +39,11 @@ export const USER = {
   avatar: "/profile.png",
   timeZone: "Asia/Kolkata",
   keywords: [
-    "devansh tiwari metis", "devansh tiwari freellm", "devansh tiwari product engineer",
-    "product engineer india", "AI infrastructure engineer",
-    "LLM gateway", "multi-provider AI routing", "AI cost optimization",
-    "metis AI", "trymetis", "freellm",
-    "product engineer india", "AI engineer india",
+    "devansh tiwari product engineer", "devansh tiwari ai product engineer",
+    "ai product engineer india", "freelance product engineer india",
+    "AI infrastructure engineer", "LLM gateway", "multi-provider AI routing",
+    "AI cost optimization", "metis ai stock analysis", "freellm",
+    "ai product engineer for hire", "freelance ai engineer india",
   ],
   dateCreated: "2024-01-01",
 }

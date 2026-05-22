@@ -9,11 +9,11 @@ export const EXPERIENCES: Experience[] = [
       {
         id: "1",
         title: "Co-Founder",
-        employmentPeriod: { start: "02.2026" },
+        employmentPeriod: { start: "02.2026", end: "04.2026" },
         employmentType: "Full-time",
         icon: "idea",
         description:
-          "AI-powered stock analysis for Indian swing traders. Shipped 0-to-1 from concept to 25-user beta in 20 days across 20 product decisions. Drove product-led acquisition by shipping 7 free tools targeting 650K+ monthly searches. Reduced per-session API cost by 52% through a hybrid model routing system.",
+          "AI-powered stock analysis for Indian swing traders (side project, Feb to Apr 2026). Shipped 0-to-1 from concept to 25-user beta in 20 days across 20 product decisions. Drove product-led acquisition by shipping 7 free tools targeting 650K+ monthly searches. Reduced per-session API cost by 52% through a hybrid model routing system.",
         skills: [
           "Product Strategy",
           "User Research",
@@ -26,7 +26,6 @@ export const EXPERIENCES: Experience[] = [
         isExpanded: true,
       },
     ],
-    isCurrentEmployer: true,
   },
   {
     id: "helium",

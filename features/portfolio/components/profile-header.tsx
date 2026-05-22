@@ -15,7 +15,7 @@ export function ProfileHeader() {
             <TextReveal text={USER.displayName} delay={0.2} instant />
             <span className="sr-only">
               {" "}
-              — Product Engineer at Metis, AI infrastructure
+              — AI Product Engineer, freelance and consulting
             </span>
           </h1>
 

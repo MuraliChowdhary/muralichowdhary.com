@@ -1,4 +1,4 @@
-export type ProjectStatus = "shipped" | "beta" | "in-progress" | "archived"
+export type ProjectStatus = "shipped" | "beta" | "in-progress" | "archived" | "ended"
 
 export type ProjectFeature = {
   title: string

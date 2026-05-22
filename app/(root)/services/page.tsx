@@ -35,7 +35,7 @@ import { generateBreadcrumbs } from "@/lib/schema"
 export const metadata: Metadata = {
   title: "AI Automation Audits for SaaS | Devansh Tiwari",
   description:
-    "I find 3 AI automations in your SaaS in 1 day. $500 audit. Built by the founder of Metis (live AI in production). 50+ products shipped.",
+    "I find 3 AI automations in your SaaS in 1 day. $500 audit. AI Product Engineer. 50+ products shipped.",
   alternates: { canonical: "/services" },
   openGraph: {
     title: "AI Automation Audits for SaaS Founders",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 
 const PROOF_STATS = [
   { value: "50+", label: "Products shipped" },
-  { value: "60%", label: "AI cost cut at Metis" },
+  { value: "60%", label: "AI cost reduction" },
   { value: "20-30%", label: "Sales lift @ Helium" },
   { value: "8", label: "Saudi enterprise builds" },
 ]
@@ -135,10 +135,10 @@ const PRICING_TIERS = [
 const CASE_STUDIES = [
   {
     company: "Metis",
-    role: "Co-founder & Builder",
+    role: "Co-founder (side project, 2026)",
     metric: "60%",
     metricLabel: "AI cost reduction",
-    result: "Live in production. Real users. Real market data.",
+    result: "AI stock analysis for Indian traders. Concept to beta in 20 days.",
     href: "https://trymetis.app",
     external: true,
   },
@@ -216,7 +216,7 @@ const FAQ = [
   },
   {
     q: "You're young. Why should I trust you?",
-    a: "Fair question. I've shipped 50+ products since 2022. I run Metis, an AI product live in production with real users. I cut my own AI costs 60% in 30 days. I built voice AI for Saudi enterprise clients in 6 weeks. I'm AI-native because I came up building with these tools, not adapting to them. You're not hiring experience. You're hiring speed and a builder who actually ships.",
+    a: "Fair question. I've shipped 50+ products since 2022. I co-founded Metis, an AI product I took from concept to beta in 20 days. I cut AI costs 60% in 30 days. I built voice AI for Saudi enterprise clients in 6 weeks. I'm AI-native because I came up building with these tools, not adapting to them. You're not hiring experience. You're hiring speed and a builder who actually ships.",
   },
   {
     q: "What if the audit doesn't find anything useful?",
@@ -228,7 +228,7 @@ const FAQ = [
   },
   {
     q: "How do I know you won't disappear?",
-    a: "I'm building Metis publicly. My Twitter, LinkedIn, GitHub, and blog are all live and active. You can verify everything I claim. I work in 7-day sprints with daily updates so you always know exactly where things stand.",
+    a: "My Twitter, LinkedIn, GitHub, and blog are all live and active. You can verify everything I claim. I work in 7-day sprints with daily updates so you always know exactly where things stand.",
   },
   {
     q: "Why automations and not chatbots?",
@@ -483,26 +483,19 @@ export default function ServicesPage() {
               <div className="flex items-start gap-4">
                 <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-line bg-gradient-to-br from-muted/40 to-muted/10">
                   <SparklesIcon className="h-5 w-5" />
-                  <div className="absolute -right-1 -top-1 flex h-3 w-3 items-center justify-center rounded-full bg-emerald-500 ring-2 ring-background">
-                    <div className="h-1 w-1 rounded-full bg-white" />
-                  </div>
                 </div>
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
-                      Currently building
-                    </span>
-                    <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
-                      <span className="h-1 w-1 animate-pulse rounded-full bg-emerald-500" />
-                      Live
+                      Previously built
                     </span>
                   </div>
                   <h3 className="mt-1.5 flex items-center gap-1.5 font-sans text-base font-semibold sm:text-lg">
-                    Metis — AI stock analysis in production
+                    Metis — AI stock analysis for Indian traders
                     <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </h3>
                   <p className="mt-1 font-mono text-xs leading-relaxed text-muted-foreground sm:text-sm">
-                    Real users. Real market data. The exact product I'd build for you, but for myself.
+                    Surveyed 70+ traders before writing code. Concept to beta in 20 days. The type of product I build for clients.
                   </p>
                 </div>
               </div>
@@ -904,7 +897,7 @@ export default function ServicesPage() {
                   </h3>
                 </div>
                 <p className="font-mono text-xs leading-relaxed text-muted-foreground sm:text-sm">
-                  50+ products shipped. Co-founder of Metis. Daily updates,
+                  50+ products shipped. AI Product Engineer, available for freelance and consulting. Daily updates,
                   async-first, no BS meetings. If I can't help, I'll tell you on
                   the first call.
                 </p>
