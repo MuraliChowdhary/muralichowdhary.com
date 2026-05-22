@@ -104,7 +104,7 @@ export function BlogPageClient({ posts }: { posts: Post[] }) {
 
       <div className="p-4">
         <p className="font-mono text-sm text-balance text-muted-foreground">
-          A collection of articles on development, design, and ideas.
+          Notes on LLM infrastructure, cost optimization, and shipping AI products end to end.
         </p>
       </div>
 

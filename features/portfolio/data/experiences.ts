@@ -1,27 +1,27 @@
 import type { Experience } from "../types/experiences"
 
+// Metis lives on /work as a side project case study, not here.
+// Experience is jobs only. Ordered by most-recent end date first.
 export const EXPERIENCES: Experience[] = [
   {
-    id: "metis",
-    companyName: "Metis",
-    companyWebsite: "https://trymetis.app",
+    id: "osit",
+    companyName: "OSIT",
     positions: [
       {
         id: "1",
-        title: "Co-Founder",
-        employmentPeriod: { start: "02.2026", end: "04.2026" },
-        employmentType: "Full-time",
-        icon: "idea",
+        title: "Freelance Software Engineer",
+        employmentPeriod: { start: "06.2024", end: "12.2025" },
+        employmentType: "Contract",
+        icon: "code",
         description:
-          "AI-powered stock analysis for Indian swing traders (side project, Feb to Apr 2026). Shipped 0-to-1 from concept to 25-user beta in 20 days across 20 product decisions. Drove product-led acquisition by shipping 7 free tools targeting 650K+ monthly searches. Reduced per-session API cost by 52% through a hybrid model routing system.",
+          "Shipped 8 products across 5 domains (logistics, AI, enterprise SaaS, government, HR) for the Saudi Arabia market. Built a 25-module platform in 4 weeks as sole engineer. Shipped bilingual Arabic/English with RTL support across 3,000+ translation keys.",
         skills: [
-          "Product Strategy",
-          "User Research",
-          "SEO",
-          "LLM/AI Systems",
           "Next.js",
           "TypeScript",
-          "AARRR Metrics",
+          "RTL/i18n",
+          "SEO",
+          "System Design",
+          "Docker",
         ],
         isExpanded: true,
       },
@@ -33,35 +33,21 @@ export const EXPERIENCES: Experience[] = [
     companyWebsite: "https://helium.sh",
     positions: [
       {
-        id: "2",
+        id: "1",
         title: "Software Engineer (Product-Facing)",
-        employmentPeriod: { start: "06.2025", end: "08.2025" },
-        employmentType: "Full-time",
+        employmentPeriod: { start: "04.2024", end: "08.2025" },
+        periodLabel: "Intern: Apr 2024 to Feb 2025 · Full-time: Jun 2025 to Aug 2025",
         icon: "code",
         description:
-          "Led product discovery for conversational commerce. Researched trigger timing, user journey placements, and context memory patterns. Contributed to the Pulse personalization product that drove 20-25% merchant sales uplift.",
+          "As full-time engineer, led product discovery for conversational commerce: trigger timing, user journey placements, and context memory patterns. Contributed to the Pulse personalization product that drove 20 to 25% merchant sales uplift. As intern, identified a 25-second recommendation latency bottleneck and refactored the retrieval and ranking pipeline for a 60% latency reduction. Defined and shipped an AI Shopify Agent MVP using RICE prioritization.",
         skills: [
           "Product Discovery",
           "Shopify",
           "React",
           "TypeScript",
-          "Analytics",
-        ],
-      },
-      {
-        id: "1",
-        title: "Software Engineer Intern",
-        employmentPeriod: { start: "04.2024", end: "02.2025" },
-        employmentType: "Internship",
-        icon: "code",
-        description:
-          "Identified a 25-second recommendation latency bottleneck. Refactored the retrieval and ranking pipeline to achieve 60% latency reduction. Defined and shipped an AI Shopify Agent MVP using RICE prioritization.",
-        skills: [
-          "React",
           "Node.js",
-          "Competitive Analysis",
+          "Analytics",
           "RICE Framework",
-          "Analytics Pipelines",
         ],
       },
     ],
@@ -85,29 +71,6 @@ export const EXPERIENCES: Experience[] = [
           "AI/LLM",
           "React Native",
           "Next.js",
-        ],
-      },
-    ],
-  },
-  {
-    id: "osit",
-    companyName: "OSIT",
-    positions: [
-      {
-        id: "1",
-        title: "Freelance Software Engineer",
-        employmentPeriod: { start: "06.2024", end: "12.2025" },
-        employmentType: "Contract",
-        icon: "code",
-        description:
-          "Shipped 8 products across 5 domains (logistics, AI, enterprise SaaS, government, HR) for the Saudi Arabia market. Built a 25-module platform in 4 weeks as sole engineer. Shipped bilingual Arabic/English with RTL support across 3,000+ translation keys.",
-        skills: [
-          "Next.js",
-          "TypeScript",
-          "RTL/i18n",
-          "SEO",
-          "System Design",
-          "Docker",
         ],
       },
     ],

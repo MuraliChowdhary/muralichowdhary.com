@@ -8,7 +8,7 @@ import { generateWorkCollectionSchemas } from "@/lib/schema"
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Real products shipped for real clients. Not case studies. Actual systems running in production.",
+    "Real products shipped for real clients. No case studies, actual systems running in production.",
   alternates: { canonical: "/work" },
 }
 
@@ -34,7 +34,7 @@ export default function WorkPage() {
 
       <div className="p-4">
         <p className="font-mono text-sm text-balance text-muted-foreground">
-          Real products shipped for real clients. Not case studies. Actual
+          Real products shipped for real clients. No case studies, actual
           systems running in production.
         </p>
       </div>

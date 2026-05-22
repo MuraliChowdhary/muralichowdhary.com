@@ -144,7 +144,7 @@ export function generateWorkCollectionSchemas(projects: WorkProject[]) {
     url: `${siteConfig.siteUrl}/work`,
     name: "Work",
     description:
-      "Real products shipped for real clients. Not case studies. Actual systems running in production.",
+      "Real products shipped for real clients. No case studies, actual systems running in production.",
     isPartOf: { "@id": `${siteConfig.siteUrl}/#website` },
     about: authorRef(),
     mainEntity: {

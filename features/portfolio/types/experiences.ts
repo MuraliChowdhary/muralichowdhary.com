@@ -7,6 +7,8 @@ export type ExperiencePosition = {
     start: string
     end?: string
   }
+  /** Overrides the auto-formatted period text (for merged roles with gaps, etc). */
+  periodLabel?: string
   employmentType?: string
   icon?: ExperiencePositionIcon
   description?: string

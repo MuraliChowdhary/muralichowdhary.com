@@ -35,6 +35,21 @@ const iconMap: Record<
   idea: LightbulbIcon,
 }
 
+const MONTH_LABELS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+]
+
+// "04.2024" -> "Apr 2024", "2022" -> "2022"
+function formatPeriod(value: string): string {
+  const match = value.match(/^(\d{1,2})\.(\d{4})$/)
+  if (!match) return value
+  const monthIndex = parseInt(match[1], 10) - 1
+  const year = match[2]
+  if (monthIndex < 0 || monthIndex > 11) return value
+  return `${MONTH_LABELS[monthIndex]} ${year}`
+}
+
 export function ExperiencePositionItem({
   position,
 }: {
@@ -83,7 +98,7 @@ export function ExperiencePositionItem({
           )}
         </div>
 
-        <div className="flex items-center gap-2 pl-9 text-[13px] text-muted-foreground sm:text-sm">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 pl-9 text-[13px] text-muted-foreground sm:text-sm">
           {position.employmentType && (
             <>
               <span>{position.employmentType}</span>
@@ -93,18 +108,22 @@ export function ExperiencePositionItem({
               />
             </>
           )}
-          <span className="flex items-center gap-0.5">
-            <span>{start}</span>
-            <span className="font-mono">&mdash;</span>
-            {isOngoing ? (
-              <>
-                <InfinityIcon className="h-4 w-4 translate-y-[0.5px]" />
-                <span className="sr-only">Present</span>
-              </>
-            ) : (
-              <span>{end}</span>
-            )}
-          </span>
+          {position.periodLabel ? (
+            <span>{position.periodLabel}</span>
+          ) : (
+            <span className="flex items-center gap-1">
+              <span>{formatPeriod(start)}</span>
+              <span aria-hidden>–</span>
+              {isOngoing ? (
+                <>
+                  <InfinityIcon className="h-4 w-4 translate-y-[0.5px]" />
+                  <span className="sr-only">Present</span>
+                </>
+              ) : (
+                <span>{formatPeriod(end)}</span>
+              )}
+            </span>
+          )}
         </div>
       </CollapsibleTrigger>
 
