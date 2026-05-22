@@ -52,10 +52,10 @@ async function fetchAllPosts(): Promise<Post[]> {
 }
 
 /**
- * Cached across requests (1 hour revalidation).
+ * Cached across requests (60s revalidation — matches the blog page's ISR interval).
  * Use this in all server components — both the homepage preview and the /blog page.
  */
 export const getAllPosts = unstable_cache(fetchAllPosts, ["blog-posts"], {
-  revalidate: 3600,
+  revalidate: 60,
   tags: ["blog"],
 })
