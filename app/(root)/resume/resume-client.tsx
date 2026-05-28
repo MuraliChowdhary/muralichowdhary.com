@@ -4,9 +4,9 @@ import { DownloadIcon, ExternalLinkIcon } from "lucide-react"
 import { useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
 
-const PDF_URL = "/resume.pdf"
-const FILENAME = "Devansh_PM_Resume.pdf"
-const SITE_URL = "https://www.devanshtiwari.com"
+const PDF_URL = "/MuraliSudireddyResume.pdf"
+const FILENAME = "MuraliSudireddyResume.pdf"
+const SITE_URL = "https://www.muralichowdhary.com"
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false)

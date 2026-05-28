@@ -32,10 +32,10 @@ export const siteConfig = {
       title: "Work",
       href: "/work",
     },
-    {
-      title: "Blog",
-      href: "/blog",
-    },
+    // {
+    //   title: "Blog",
+    //   href: "/blog",
+    // },
     {
       title: "Resume",
       href: "/resume",
