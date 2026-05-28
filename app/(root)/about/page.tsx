@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "AI Product Engineer. Previously shipped enterprise products for Saudi Arabia, drove e-commerce personalization at Helium, and co-founded Metis.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About Devansh Tiwari",
+    title: "About Murali Sudireddy",
     description:
       "AI Product Engineer available for freelance and consulting. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end.",
     type: "profile",
@@ -52,7 +52,7 @@ const TIMELINE = [
   {
     year: "2025",
     label: "OSIT / Saudi Arabia",
-    text: "Shipped 8 enterprise products across 5 domains for Saudi Arabia as sole engineer. UnifyHQ: 471 endpoints, 194 pages, 8 languages in 26 days. Nateeq AI: multi-tenant voice platform in 6 weeks. Deliverist: conversational commerce with RAG.",
+    text: "Shipped 8 enterprise products across 5 domains for Saudi Arabia as sole engineer. annseva: 471 endpoints, 194 pages, 8 languages in 26 days. Nateeq AI: multi-tenant voice platform in 6 weeks. Deliverist: conversational commerce with RAG.",
   },
   {
     year: "2026",
@@ -82,7 +82,7 @@ export default function AboutPage() {
     mainEntity: {
       "@id": "https://www.devanshtiwari.com/#person",
     },
-    name: "About Devansh Tiwari",
+    name: "About Murali Sudireddy",
     url: "https://www.devanshtiwari.com/about",
     description:
       "AI Product Engineer based in Delhi NCR, India. Builds AI products end-to-end, from user research to cost-optimized production. Available for freelance and consulting.",
@@ -122,7 +122,7 @@ export default function AboutPage() {
           <div className="flex flex-col gap-6 p-4 sm:flex-row sm:items-start sm:gap-8">
             <Image
               src={USER.avatar}
-              alt="Devansh Tiwari"
+              alt="Murali Sudireddy"
               width={160}
               height={160}
               className="h-24 w-24 shrink-0 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background grayscale transition-[filter] duration-500 hover:grayscale-0 sm:h-32 sm:w-32"
@@ -238,7 +238,7 @@ export default function AboutPage() {
               { value: "50+", label: "Products shipped" },
               { value: "8", label: "Saudi Arabia projects" },
               { value: "70+", label: "Traders surveyed" },
-              { value: "26", label: "Days to ship UnifyHQ" },
+              { value: "26", label: "Days to ship annseva" },
             ].map((stat, i) => (
               <div
                 key={stat.label}

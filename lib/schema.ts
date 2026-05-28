@@ -32,11 +32,11 @@ function authorRef() {
  *   generateBreadcrumbs([
  *     { name: "Home", href: "/" },
  *     { name: "Work", href: "/work" },
- *     { name: "UnifyHQ" },
+ *     { name: "annseva" },
  *   ])
  *
  * Last item has no href (current page).
- * Google displays these in search results as: Home > Work > UnifyHQ
+ * Google displays these in search results as: Home > Work > annseva
  */
 export function generateBreadcrumbs(
   items: { name: string; href?: string }[]

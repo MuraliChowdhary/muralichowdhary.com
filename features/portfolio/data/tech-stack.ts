@@ -15,7 +15,7 @@ export const TECH_STACK: TechStack[] = [
   // Databases
   { key: "postgresql", title: "PostgreSQL", href: "https://www.postgresql.org/", categories: ["Database"] },
   { key: "mongodb", title: "MongoDB", href: "https://www.mongodb.com/", categories: ["Database"] },
-  { key: "redis", title: "Redis", href: "https://redis.io/", categories: ["Database"] },
+  // { key: "redis", title: "Redis", href: "https://redis.io/", categories: ["Database"] },
   // ORM
   { key: "prisma", title: "Prisma", href: "https://www.prisma.io/", categories: ["ORM"], icon: "https://cdn.simpleicons.org/prisma/2D3748", iconDark: "https://cdn.simpleicons.org/prisma/ffffff" },
   { key: "drizzle", title: "Drizzle", href: "https://orm.drizzle.team/", categories: ["ORM"], icon: "https://cdn.simpleicons.org/drizzle/C5F74F" },
@@ -26,5 +26,36 @@ export const TECH_STACK: TechStack[] = [
   { key: "git", title: "Git", href: "https://git-scm.com/", categories: ["Tools"] },
   { key: "figma", title: "Figma", href: "https://www.figma.com/", categories: ["Design"] },
   // Analytics
-  { key: "posthog", title: "PostHog", href: "https://posthog.com/", categories: ["Analytics"], icon: "https://cdn.simpleicons.org/posthog/F9BD2B" },
+  { key: "newrelic", title: "New Relic", href: "https://newrelic.com/", categories: ["Monitoring"], icon: "https://cdn.simpleicons.org/newrelic/008C99", },
+  {
+  key: "cpp",
+  title: "C++",
+  href: "https://isocpp.org/",
+  categories: ["Language"],
+  icon: "https://cdn.simpleicons.org/cplusplus/00599C",
+},
+
+{
+  key: "shadcnui",
+  title: "shadcn/ui",
+  href: "https://ui.shadcn.com/",
+  categories: ["UI Library"],
+  icon: "https://ui.shadcn.com/favicon.ico",
+},
+
+{
+  key: "redis",
+  title: "Redis",
+  href: "https://redis.io/",
+  categories: ["Database"],
+  icon: "https://cdn.simpleicons.org/redis/DC382D",
+},
+{
+  key: "cloudflare",
+  title: "Cloudflare",
+  href: "https://www.cloudflare.com/",
+  categories: ["Cloud"],
+  icon: "https://cdn.simpleicons.org/cloudflare/F38020",
+},
+
 ]

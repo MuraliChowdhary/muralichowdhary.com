@@ -33,7 +33,7 @@ import { cn } from "@/lib/utils"
 import { generateBreadcrumbs } from "@/lib/schema"
 
 export const metadata: Metadata = {
-  title: "AI Automation Audits for SaaS | Devansh Tiwari",
+  title: "AI Automation Audits for SaaS | Murali Sudireddy",
   description:
     "I find 3 AI automations in your SaaS in 1 day. $500 audit. AI Product Engineer. 50+ products shipped.",
   alternates: { canonical: "/services" },
@@ -882,7 +882,7 @@ export default function ServicesPage() {
             <div className="flex flex-col gap-5 p-5 sm:flex-row sm:items-center sm:gap-6 sm:p-6">
               <Image
                 src={USER.avatar}
-                alt="Devansh Tiwari"
+                alt="Murali Sudireddy"
                 width={120}
                 height={120}
                 className="h-20 w-20 shrink-0 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background grayscale transition-[filter] duration-500 hover:grayscale-0 sm:h-24 sm:w-24"
@@ -893,7 +893,7 @@ export default function ServicesPage() {
                     You'd be working with
                   </p>
                   <h3 className="mt-1 font-sans text-xl font-semibold tracking-tight">
-                    Devansh Tiwari
+                    Murali Sudireddy
                   </h3>
                 </div>
                 <p className="font-mono text-xs leading-relaxed text-muted-foreground sm:text-sm">

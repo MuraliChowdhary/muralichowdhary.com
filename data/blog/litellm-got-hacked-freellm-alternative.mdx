@@ -32,7 +32,7 @@ The supply chain attack was the tipping point. The root cause is depending on a 
 
 I ran into the multi-provider routing problem last year while building [Metis](https://trymetis.app). Kept burning through Groq's free tier in 20 minutes of testing. Switched to Gemini manually. Hit their cap. Switched to Mistral. Every time.
 
-Built [FreeLLM](https://github.com/devansh-365/freellm) to stop doing that manually. It solves a narrower problem than LiteLLM, and that's the point.
+Built [FreeLLM](https://github.com/MuraliChowdhary//freellm) to stop doing that manually. It solves a narrower problem than LiteLLM, and that's the point.
 
 FreeLLM is an OpenAI-compatible gateway that routes across six providers: Groq, Gemini, Mistral, Cerebras, NVIDIA NIM, and Ollama. When one rate-limits, the next one answers. Circuit breakers pull failing providers from rotation. Response caching saves duplicate calls.
 
@@ -129,7 +129,7 @@ TypeScript, Go, Ruby, anything that speaks OpenAI. Same pattern.
 
 262 tests. 6 providers. One endpoint. Zero cost. MIT licensed.
 
-**GitHub:** [github.com/devansh-365/freellm](https://github.com/devansh-365/freellm)
+**GitHub:** [github.com/devansh-365/freellm](https://github.com/MuraliChowdhary//freellm)
 
 **Docs:** [freellms.vercel.app](https://freellms.vercel.app)
 

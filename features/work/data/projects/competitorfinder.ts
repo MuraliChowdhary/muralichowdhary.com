@@ -9,7 +9,7 @@ export const competitorfinder: WorkProject = {
   role: "Solo Builder",
   company: "Side Project",
   period: "2025",
-  githubUrl: "https://github.com/Devansh-365/competitorfinder",
+  githubUrl: "https://github.com/MuraliChowdhary//competitorfinder",
   highlights: [
     "AI generates targeted search queries per platform so scraping starts from relevant category pages, not a generic keyword dump",
     "Puppeteer and Playwright run against all 3 platforms in parallel with anti-detection headers, pulling 10+ fields per listing automatically",

@@ -33,7 +33,7 @@ export async function GET() {
               marginBottom: "40px",
             }}
           >
-            DT
+            MS
           </div>
 
           <div
@@ -46,7 +46,7 @@ export async function GET() {
               marginBottom: "20px",
             }}
           >
-            Devansh Tiwari
+            Murali Sudireddy
           </div>
 
           <div

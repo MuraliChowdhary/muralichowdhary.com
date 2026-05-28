@@ -7,18 +7,18 @@ import type { Testimonial } from "../types/testimonials"
 export const TESTIMONIALS_1: Testimonial[] = [
   {
     authorAvatar: "",
-    authorName: "Shahid N.",
-    authorTagline: "Project Manager @ OSIT",
+    authorName: "",
+    authorTagline: "",
     url: "#",
     quote:
-      "Working with Devansh Tiwari has been an excellent experience. He quickly understands complex requirements, delivers clean and optimized code, and ensures every milestone is completed on time. I highly recommend Devansh for any AI, web, or full-stack development project.",
+      "Working with Murali Sudireddy has been an excellent experience. He quickly understands complex requirements, delivers clean and optimized code, and ensures every milestone is completed on time. I highly recommend Devansh for any AI, web, or full-stack development project.",
     date: "2025-10-01",
     isFeatured: true,
   },
   {
     authorAvatar: "",
-    authorName: "Abir P.",
-    authorTagline: "Technical Consultant @ EY",
+    authorName: "",
+    authorTagline: "",
     url: "#",
     quote:
       "He has a strong command of React and Next.js, and consistently writes clean, efficient, and maintainable code. Devansh also has a great eye for design and responsiveness. He is highly reliable and delivers high-quality work on or before deadlines.",
@@ -29,7 +29,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
 export const TESTIMONIALS_2: Testimonial[] = [
   {
     authorAvatar: "",
-    authorName: "Varnit S.",
+    authorName: "",
     authorTagline: "",
     url: "#",
     quote:

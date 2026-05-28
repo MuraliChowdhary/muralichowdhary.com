@@ -83,9 +83,9 @@ export default function HomePage() {
       </ScrollReveal>
       <Line />
 
-      <ScrollReveal delay={0.05}>
+      {/* <ScrollReveal delay={0.05}>
         <BlogPreview />
-      </ScrollReveal>
+      </ScrollReveal> */}
       <Line />
 
       <ScrollReveal delay={0.05}>

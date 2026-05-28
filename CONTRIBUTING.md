@@ -16,7 +16,7 @@ Thanks for wanting to contribute. This guide will get you from zero to your firs
 ## Quick Start
 
 ```bash
-git clone https://github.com/Devansh-365/devanshtiwari.com.git
+git clone https://github.com/MuraliChowdhary//devanshtiwari.com.git
 cd devanshtiwari.com
 npm install
 npm run dev
@@ -27,7 +27,7 @@ Open [localhost:3000](http://localhost:3000). You're live.
 ## Before You Start
 
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md)
-- Check [existing issues](https://github.com/Devansh-365/devanshtiwari.com/issues) to avoid duplicates
+- Check [existing issues](https://github.com/MuraliChowdhary//devanshtiwari.com/issues) to avoid duplicates
 - For new features, **open an issue first** to discuss the approach before writing code
 - For bug fixes and small improvements, feel free to go straight to a PR
 
@@ -155,7 +155,7 @@ npm run format:check
 
 ## First Time Contributing to Open Source?
 
-Look for issues labeled [`good first issue`](https://github.com/Devansh-365/devanshtiwari.com/labels/good%20first%20issue). These are scoped, well-defined tasks that don't require deep knowledge of the codebase.
+Look for issues labeled [`good first issue`](https://github.com/MuraliChowdhary//devanshtiwari.com/labels/good%20first%20issue). These are scoped, well-defined tasks that don't require deep knowledge of the codebase.
 
 If you're stuck, open a draft PR and ask for help. We'd rather help you finish than see you give up.
 

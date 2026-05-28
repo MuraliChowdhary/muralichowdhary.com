@@ -10,7 +10,7 @@ export const freellm: WorkProject = {
   company: "Side Project",
   period: "2026",
   liveUrl: "https://freellms.vercel.app",
-  githubUrl: "https://github.com/Devansh-365/freellm",
+  githubUrl: "https://github.com/MuraliChowdhary//freellm",
   thumbnail: "/work/freellm.png",
   problem:
     "Every free LLM tier rate-limits you within an hour of real use. Groq gives 30 RPM, Gemini gives 15, Mistral gives 1. To ship anything you end up juggling 4 SDKs, 4 sets of keys, and 4 different error shapes. Switch providers and your client code changes. Hit a 429 and your app stops. Nobody wants to write that plumbing again.",

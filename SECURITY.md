@@ -6,7 +6,7 @@ If you discover a security vulnerability, please report it responsibly.
 
 **Do not open a public GitHub issue.** Instead, use one of these channels:
 
-1. **Preferred:** [GitHub Private Vulnerability Reporting](https://github.com/Devansh-365/devanshtiwari.com/security/advisories/new)
+1. **Preferred:** [GitHub Private Vulnerability Reporting](https://github.com/MuraliChowdhary//devanshtiwari.com/security/advisories/new)
 2. **Email:** devanshtiwari365@gmail.com
 
 Include:

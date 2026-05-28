@@ -9,7 +9,7 @@ export const sheetforge: WorkProject = {
   role: "Solo Builder",
   company: "Side Project",
   period: "2026",
-  githubUrl: "https://github.com/Devansh-365/sheetforge",
+  githubUrl: "https://github.com/MuraliChowdhary//sheetforge",
   highlights: [
     "Per-sheet write queue with Postgres advisory-lock fencing turns Google Sheets into a serializable backend. 50 parallel POSTs land as 50 ordered rows, every time.",
     "Idempotency via partial unique index on (sheet_id, idempotency_key). Network flakes never double-write.",

@@ -12,9 +12,9 @@ export default async function Image({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  
+
   let title = slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
-  
+
   try {
     const post = await getFileBySlug<PostFrontMatter>("blog", slug)
     const frontMatter = post.frontMatter as PostFrontMatter
@@ -53,7 +53,7 @@ export default async function Image({
                 fontWeight: 700,
               }}
             >
-              DT
+              MS
             </div>
             <span
               style={{
@@ -89,7 +89,7 @@ export default async function Image({
             color: "rgba(232,232,232,0.3)",
           }}
         >
-          <span>Devansh Tiwari</span>
+          <span>Murali Sudireddy</span>
           <span style={{ color: "rgba(232,232,232,0.15)" }}>|</span>
           <span>AI Product Builder</span>
         </div>

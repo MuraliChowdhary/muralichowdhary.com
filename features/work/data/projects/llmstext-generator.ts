@@ -9,7 +9,7 @@ export const llmstextGenerator: WorkProject = {
   role: "Solo Builder",
   company: "Side Project",
   period: "2025",
-  githubUrl: "https://github.com/Devansh-365/llmstext",
+  githubUrl: "https://github.com/MuraliChowdhary//llmstext",
   highlights: [
     "Crawls up to 20 pages via Firecrawl and produces both llms.txt (concise index) and llms-full.txt (full markdown content) in a single run",
     "Real-time crawl progress streams to the browser via Server-Sent Events, rendered in a terminal-style UI so you can watch pages arrive as they are processed",

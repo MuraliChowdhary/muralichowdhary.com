@@ -115,10 +115,10 @@ export function Overview() {
           />
 
           <CopyableItem
-            text="+919560879697"
-            href="tel:+919560879697"
+            text="+919285555222"
+            href="tel:+919285555222"
             icon={PhoneIcon}
-            label="+91 9560879697"
+            label="+91 9285555222"
           />
         </div>
       </PanelContent>

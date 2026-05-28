@@ -10,7 +10,7 @@ export const hisaab: WorkProject = {
   company: "Metis",
   period: "2026",
   liveUrl: "https://hisaab.trymetis.app",
-  githubUrl: "https://github.com/Devansh-365/hisaab",
+  githubUrl: "https://github.com/MuraliChowdhary//hisaab",
   problem:
     "Indian traders don't trust tools with their financial data. 91% of F&O traders lost money last year. They've been burned by platforms that leak data or sell it. Existing journal tools want signups, credit cards, and server access to your tradebook. Nobody wants to upload their Zerodha CSV to a random website.",
   whatIBuilt:

@@ -173,7 +173,7 @@ The script prints a percentage breakdown showing exactly where your budget went.
 
 All of this is fixable at the application layer, but it requires every caller to know about reasoning budgets. That doesn't scale across services.
 
-I run [FreeLLM](https://github.com/devansh-365/freellm) in front of my LLM calls. It's an OpenAI-compatible gateway that routes across six providers, and it sets the right reasoning budget per Gemini model automatically. Flash gets `reasoning_effort: "none"`. Pro gets `"low"`. Your full `max_tokens` budget goes to the actual answer. Override per request if you need reasoning back.
+I run [FreeLLM](https://github.com/MuraliChowdhary//freellm) in front of my LLM calls. It's an OpenAI-compatible gateway that routes across six providers, and it sets the right reasoning budget per Gemini model automatically. Flash gets `reasoning_effort: "none"`. Pro gets `"low"`. Your full `max_tokens` budget goes to the actual answer. Override per request if you need reasoning back.
 
 ```bash
 curl http://localhost:3000/v1/chat/completions \
@@ -203,6 +203,6 @@ The official docs don't make any of this obvious. Hopefully this post saves you 
 
 ---
 
-**FreeLLM on GitHub:** [github.com/devansh-365/freellm](https://github.com/devansh-365/freellm) — the gateway that handles this for you.
+**FreeLLM on GitHub:** [github.com/devansh-365/freellm](https://github.com/MuraliChowdhary//freellm) — the gateway that handles this for you.
 
 You can also read about [why I ditched LiteLLM after the supply chain attack](/blog/litellm-got-hacked-freellm-alternative) or [how I validated Metis before writing code](/blog/how-i-validated-metis-before-writing-code).

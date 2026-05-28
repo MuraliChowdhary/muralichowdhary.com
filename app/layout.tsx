@@ -90,7 +90,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             rel="alternate"
             type="application/rss+xml"
             href="/rss"
-            title="Devansh Tiwari — RSS Feed"
+            title="Murali Sudireddy — RSS Feed"
           />
           {/* Plausible Analytics */}
           <script
@@ -108,11 +108,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "WebSite",
-                "@id": "https://www.devanshtiwari.com/#website",
-                url: "https://www.devanshtiwari.com",
-                name: "Devansh Tiwari",
+                "@id": "https://www.muralichowdhary.vercel.app/#website",
+                url: "https://www.muralichowdhary.vercel.app",
+                name: "Murali Sudireddy",
                 description: siteConfig.description,
-                publisher: { "@id": "https://www.devanshtiwari.com/#person" },
+                publisher: { "@id": "https://www.muralichowdhary.vercel.app/#person" },
                 inLanguage: "en-US",
               }),
             }}
@@ -123,40 +123,40 @@ export default function RootLayout({ children }: RootLayoutProps) {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Person",
-                "@id": "https://www.devanshtiwari.com/#person",
-                name: "Devansh Tiwari",
-                givenName: "Devansh",
-                familyName: "Tiwari",
-                url: "https://www.devanshtiwari.com",
-                mainEntityOfPage: "https://www.devanshtiwari.com/about",
-                image: "https://www.devanshtiwari.com/profile.png",
-                jobTitle: "AI Product Engineer",
+                "@id": "https://www.muralichowdhary.vercel.app/#person",
+                name: "Murali Sudireddy",
+                givenName: "Murali",
+                familyName: "Sudireddy",
+                url: "https://www.muralichowdhary.vercel.app",
+                mainEntityOfPage: "https://www.muralichowdhary.vercel.app/about",
+                image: "https://www.muralichowdhary.vercel.app/profile.png",
+                jobTitle: "Software Engineer",
                 description:
                   "AI product engineer focused on cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end to end. NextLeap PM Fellowship graduate. Available for freelance and consulting.",
-                email: "mailto:devanshtiwari365@gmail.com",
-                telephone: "+919560879697",
+                email: "mailto:muralisudireddy@gmail.com",
+                telephone: "+919285555222",
                 address: {
                   "@type": "PostalAddress",
-                  addressLocality: "Delhi NCR",
+                  addressLocality: "Warangal Telangana",
                   addressCountry: "IN",
                 },
                 alumniOf: {
                   "@type": "CollegeOrUniversity",
-                  name: "Inderprastha Engineering College",
-                  sameAs: "https://www.ipec.org.in/",
+                  name: "CVR COLLEGE OF ENGINEERING",
+                  sameAs: "https://cvr.ac.in/",
                 },
                 sameAs: [
-                  "https://github.com/Devansh-365",
-                  "https://www.linkedin.com/in/devansh-tiwari-3342611a6/",
-                  "https://twitter.com/devansh_0718",
-                  "https://medium.com/@devanshtiwari365",
-                  "https://dev.to/devansh365",
-                  "https://hashnode.com/@devansh365",
-                  "https://www.indiehackers.com/devansh365",
-                  "https://www.producthunt.com/@devanshtiwari",
-                  "https://peerlist.io/devansh",
-                  "https://apify.com/devanshlive",
-                  "https://www.devanshtiwari.com",
+                  "https://github.com/MuraliChowdhary",
+                  "https://www.linkedin.com/in/sudireddy-murali-05a10b277/",
+                  "https://x.com/MSudireddy2547",
+                  "https://medium.com/@muralisudireddy0",
+                  "https://dev.to/muralisudireddy",
+                  "https://hashnode.com/@MuraliChowdhary",
+                  "https://www.indiehackers.com/muralisudireddy",
+                  "https://www.producthunt.com/@murali_sudireddy",
+                  "https://peerlist.io/muralisudireddy",
+                  "https://apify.com/muralisudireddy",
+                  "https://www.muralichowdhary.vercel.app",
                 ],
                 knowsAbout: [
                   "AI Product Development",

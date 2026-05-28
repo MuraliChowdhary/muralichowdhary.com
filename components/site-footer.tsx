@@ -17,11 +17,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="font-medium underline underline-offset-4 transition-colors hover:text-foreground"
-            href="https://twitter.com/devansh_0718"
+            href="https://x.com/MSudireddy2547"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Devansh Tiwari
+            Murali Sudireddy
           </a>
           . The source code is available on{" "}
           <a
@@ -50,7 +50,7 @@ export function SiteFooter() {
             <Separator className="max-sm:hidden" />
 
             <SocialLink
-              href="https://twitter.com/devansh_0718"
+              href="https://x.com/MSudireddy2547"
               label="X / Twitter"
             >
               <Twitter className="h-4 w-4" />
@@ -59,7 +59,7 @@ export function SiteFooter() {
             <Separator />
 
             <SocialLink
-              href="https://github.com/Devansh-365"
+              href="https://github.com/MuraliChowdhary/"
               label="GitHub"
             >
               <Github className="h-4 w-4" />

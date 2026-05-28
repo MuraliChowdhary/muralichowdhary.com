@@ -1,49 +1,109 @@
 export const USER = {
-  firstName: "Devansh",
-  lastName: "Tiwari",
-  displayName: "Devansh Tiwari",
-  username: "devansh-365",
+  firstName: "Murali",
+  lastName: "Sudireddy",
+  displayName: "Murali Sudireddy",
+  username: "murali-sudireddy",
   gender: "male" as const,
   pronouns: "he/him",
-  bio: "AI product engineer. 50+ shipped products across AI infra, e-commerce personalization, and SaaS. Available for freelance and consulting engagements.",
+
+  bio: "AI & Full-Stack Engineer building scalable backend systems, and real-world products. Passionate about startups, automation, product thinking, and solving meaningful problems through technology. Available for freelance and consulting engagements.",
+
   flipSentences: [
-    "AI Product Engineer",
-    "AI Infrastructure · Cost Optimization",
-    "PM + Engineer who ships.",
-    "Available for freelance and consulting.",
+    "AI & Full-Stack Engineer",
+    "LLMs · Backend · Scalable Systems",
+    "Building AI-powered products that solve real problems",
+    "Product Thinking + Engineering",
+    "Available for freelance and consulting",
   ],
-  address: "Delhi NCR, India",
-  phoneNumber: "",
-  email: "devanshtiwari365@gmail.com",
-  website: "https://www.devanshtiwari.com",
-  jobTitle: "AI Product Engineer",
-  jobs: [] as Array<{ title: string; company: string; website: string; experienceId?: string }>,
-  about: `- I started coding to pay my own college fees. No passion story. Just guilt from spending my parents' money on JEE coaching that didn't work out, and a decision to figure it out myself.
-- Taught myself through YouTube tutorials and docs. Got into open source, landed my first freelance client, and slowly built up to **50+ clients globally**. At peak I was closing 5 to 6 lakh projects and earning close to 2 lakh/month.
-- But I only ever saw version one. Never scale. Never retention. I knew how to build. I didn't know how to think long term. That pushed me toward product.
-- Joined **[Helium](https://www.helium.sh)**, an AI startup doing e-commerce personalization. Built recommendation engines, behavioral tracking, and reduced recommendation latency by 60%. Merchants saw 20 to 30% sales uplift. First time my work directly moved business numbers.
-- Co-founded **Zashit**, an AI credit card reward optimizer. 50+ waitlist signups. Built the MVP including an OCR pipeline for transaction data. Applied to YC. Eventually shut it down over cofounder alignment issues. Learned more from that failure than any success.
-- From February to April 2026, I worked on **[Metis](https://trymetis.app)**, an AI stock analysis tool for Indian swing traders, as a side project. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. Stopped working on it in April 2026.
-- I moved to product not because it's trendy. But because every time I felt stuck, it wasn't because I couldn't build. It was because I wasn't strong at selecting the right problems. Product thinking directly attacks that weakness.`,
+
+  address: "Telangana, India",
+  phoneNumber: "+919285555222",
+  email: "muralisudireddy@gmail.com",
+  website: "https://muralichowdhary.vercel.app",
+
+  jobTitle: "AI & Full-Stack Engineer",
+
+  jobs: [] as Array<{
+    title: string;
+    company: string;
+    website: string;
+    experienceId?: string;
+  }>,
+
+  about: `
+- I started coding with curiosity and a strong desire to build things that solve real-world problems. Over time, that curiosity evolved into a passion for software engineering, AI, backend systems, and product building.
+
+- I build full-stack applications, scalable backend systems, and AI-powered products using modern technologies. My work spans MERN stack development, APIs, databases, automation, authentication systems, cloud integrations, and LLM-based applications.
+
+- I have built projects across healthcare, food support, education, event management, attendance systems, virtual experiences, and AI-powered workflows. Some of my work includes Annseva, Pick & Partner, Winqroo, Therabee, Proptruth, Nexcore and Raftsentinel.
+
+- I enjoy building systems that are practical, scalable, and impactful — from designing backend architectures to integrating AI models and automation into products.
+
+- Beyond engineering, I care deeply about product thinking, business understanding, and solving the right problems instead of just building features. I enjoy understanding users, workflows, and how technology creates meaningful value.
+
+- I am continuously exploring scalable AI systems, LLM orchestration, intelligent automation, system design, startup building, and product-focused engineering.
+
+- My goal is to build products that positively impact people while continuously growing as an engineer, builder, and entrepreneur.
+  `,
+
   socialLinks: [
-    { title: "GitHub", href: "https://github.com/Devansh-365", icon: "github" },
-    { title: "LinkedIn", href: "https://www.linkedin.com/in/devansh-tiwari-3342611a6/", icon: "linkedin" },
-    { title: "Twitter / X", href: "https://twitter.com/devansh_0718", icon: "twitter" },
-    { title: "Email", href: "mailto:devanshtiwari365@gmail.com", icon: "mail" },
+    {
+      title: "GitHub",
+      href: "https://github.com/Muralichowdhary",
+      icon: "github",
+    },
+    {
+      title: "LinkedIn",
+      href: "https://www.linkedin.com/in/sudireddy-murali-05a10b277/",
+      icon: "linkedin",
+    },
+    {
+      title: "Email",
+      href: "mailto:muralisudireddy@gmail.com",
+      icon: "mail",
+    },
   ],
+
   techStack: [
-    "TypeScript", "Next.js", "React", "Python",
-    "Tailwind CSS", "AI SDK", "PostgreSQL",
-    "AWS", "Vercel", "Docker",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Python",
+    "LLMs",
+    "AI APIs",
+    "Tailwind CSS",
+    "REST APIs",
+    "Git",
+    "Docker",
+    "AWS",
   ],
+
   avatar: "/profile.png",
+
   timeZone: "Asia/Kolkata",
+
   keywords: [
-    "devansh tiwari product engineer", "devansh tiwari ai product engineer",
-    "ai product engineer india", "freelance product engineer india",
-    "AI infrastructure engineer", "LLM gateway", "multi-provider AI routing",
-    "AI cost optimization", "metis ai stock analysis", "freellm",
-    "ai product engineer for hire", "freelance ai engineer india",
+    "Murali Sudireddy",
+    "Murali Sudireddy AI Engineer",
+    "Murali Sudireddy Full Stack Developer",
+    "Murali Sudireddy MERN Developer",
+    "AI engineer india",
+    "full stack engineer india",
+    "backend engineer india",
+    "LLM engineer india",
+    "freelance AI engineer india",
+    "MERN stack developer india",
+    "scalable backend systems",
+    "AI powered applications",
+    "product focused engineer",
+    "startup engineer india",
   ],
+
   dateCreated: "2024-01-01",
 }
+

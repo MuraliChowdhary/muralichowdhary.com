@@ -63,10 +63,10 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
 ]
 
 const SOCIAL_LINKS: CommandLinkItem[] = [
-  { title: "GitHub", href: "https://github.com/Devansh-365", icon: GithubIcon, openInNewTab: true },
-  { title: "LinkedIn", href: "https://www.linkedin.com/in/devansh-tiwari-3342611a6/", icon: LinkedinIcon, openInNewTab: true },
-  { title: "Twitter / X", href: "https://twitter.com/devansh_0718", icon: TwitterIcon, openInNewTab: true },
-  { title: "Email", href: "mailto:devanshtiwari365@gmail.com", icon: MailIcon, openInNewTab: true },
+  { title: "GitHub", href: "https://github.com/MuraliChowdhary", icon: GithubIcon, openInNewTab: true },
+  { title: "LinkedIn", href: "https://www.linkedin.com/in/sudireddy-murali-05a10b277/", icon: LinkedinIcon, openInNewTab: true },
+  { title: "Twitter / X", href: "https://x.com/MSudireddy2547", icon: TwitterIcon, openInNewTab: true },
+  { title: "Email", href: "mailto:muralisudireddy@gmail.com", icon: MailIcon, openInNewTab: true },
 ]
 
 const OTHER_LINKS: CommandLinkItem[] = [

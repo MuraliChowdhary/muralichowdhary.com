@@ -10,7 +10,7 @@ export const replyguy: WorkProject = {
   role: "Solo Builder",
   company: "Side Project",
   period: "2026",
-  githubUrl: "https://github.com/Devansh-365/replyguy",
+  githubUrl: "https://github.com/MuraliChowdhary//replyguy",
   problem:
     "Generic reply tools dump AI text into a tweet box and call it done. You still have to scroll through your entire feed to find which tweets are worth engaging with, decide what angle to take, and fix the reply so it doesn't sound like a chatbot. Most tools give you a tone slider. None of them tell you where to spend your time.",
   whatIBuilt:

@@ -45,7 +45,7 @@ export function ProfileHeader() {
         <div className="shrink-0">
           <Image
             className="h-16 w-16 select-none rounded-full ring-1 ring-border ring-offset-2 ring-offset-background grayscale transition-[filter] duration-500 hover:grayscale-0 md:h-24 md:w-24"
-            alt="Devansh Tiwari"
+            alt="Murali Sudireddy"
             src={USER.avatar}
             width={96}
             height={96}

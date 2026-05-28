@@ -6,7 +6,7 @@ import { PostList } from "@/features/blog/components/post-list"
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Articles on development, design, and ideas by Devansh Tiwari.",
+  description: "Articles on development, design, and ideas by Murali Sudireddy.",
 }
 
 export const revalidate = 60

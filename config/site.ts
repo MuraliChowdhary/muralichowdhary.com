@@ -1,8 +1,8 @@
 export const siteConfig = {
   // Site Info
-  siteUrl: "https://www.devanshtiwari.com",
-  name: "Devansh Tiwari",
-  title: "Devansh Tiwari — AI Product Engineer",
+  siteUrl: "https://www.muralichowdhary.com",
+  name: "Murali Sudireddy",
+  title: "Murali Sudireddy — AI Product Engineer",
   description:
     "AI product engineer. Writing about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end to end. Available for freelance and consulting.",
   language: "en-US",
@@ -13,14 +13,14 @@ export const siteConfig = {
   publishTimezone: "Asia/Kolkata",
 
   // Author Info
-  author: "Devansh Tiwari",
-  email: "devanshtiwari365@gmail.com",
-  calUrl: "https://cal.com/devansh0718/15min",
+  author: "Murali Sudireddy",
+  email: "muralisudireddy@gmail.com",
+  calUrl: "https://cal.com/muralisudireddy/15min",
 
   // SEO & Social
   socialBanner: "/profile.png",
   siteLogo: "/profile.png",
-  twitterHandle: "@devansh_0718",
+  twitterHandle: "@MSudireddy2547",
 
   // Navigation
   mainNav: [
@@ -44,8 +44,8 @@ export const siteConfig = {
 
   // Social Links
   links: {
-    twitter: "https://twitter.com/devansh_0718",
-    github: "https://github.com/Devansh-365/devanshtiwari.com",
+    twitter: "https://x.com/MSudireddy2547",
+    github: "https://github.com/MuraliChowdhary",
   },
 }
 
@@ -63,5 +63,5 @@ export const SITE_INFO = {
 export const SOURCE_CODE_GITHUB_URL = siteConfig.links.github
 
 export const UTM_PARAMS = {
-  utm_source: "devanshtiwari.com",
+  utm_source: "muralichowdhary.com",
 }

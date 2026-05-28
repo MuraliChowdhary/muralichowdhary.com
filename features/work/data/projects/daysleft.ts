@@ -11,7 +11,7 @@ export const daysleft: WorkProject = {
   role: "Solo Builder",
   company: "Personal",
   period: "2025",
-  githubUrl: "https://github.com/Devansh-365/daysleft",
+  githubUrl: "https://github.com/MuraliChowdhary//daysleft",
   highlights: [
     "Chose 'days remaining' over elapsed percentage — loss aversion research (Kahneman) makes remaining-days framing hit 2x harder; every competitor defaults to elapsed %",
     "Stacked year + month + week view creates cascading urgency — week level changes today's behavior, year level is the emotional anchor; no competitor surfaces all three",

@@ -2,8 +2,8 @@ import { unstable_cache } from "next/cache"
 
 import type { Activity } from "@/components/kibo-ui/contribution-graph"
 
-const GITHUB_USERNAME = "Devansh-365"
-const USER_AGENT = "devanshtiwari.com-portfolio"
+const GITHUB_USERNAME = "MuraliChowdhary"
+const USER_AGENT = "http://muralichowdharyportfolio.vercel.app/"
 
 // Most reliable source. Requires GITHUB_TOKEN env var (read-only PAT,
 // public_repo scope). Authenticated requests get 5000/hr, so this

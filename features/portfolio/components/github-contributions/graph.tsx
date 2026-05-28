@@ -34,7 +34,7 @@ export function GitHubContributionGraph({
           Unable to load contributions. Check{" "}
           <a
             className="underline underline-offset-4"
-            href="https://github.com/Devansh-365"
+            href="https://github.com/MuraliChowdhary/"
             target="_blank"
             rel="noopener"
           >
@@ -85,7 +85,7 @@ export function GitHubContributionGraph({
                 {totalCount.toLocaleString("en")} contributions in {year} on{" "}
                 <a
                   className="font-medium underline underline-offset-4"
-                  href="https://github.com/Devansh-365"
+                  href="https://github.com/MuraliChowdhary/"
                   target="_blank"
                   rel="noopener"
                 >

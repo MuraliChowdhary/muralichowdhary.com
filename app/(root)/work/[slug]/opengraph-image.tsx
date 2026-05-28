@@ -66,7 +66,7 @@ export default async function Image({
                 fontWeight: 700,
               }}
             >
-              DT
+              MS
             </div>
             <span
               style={{
