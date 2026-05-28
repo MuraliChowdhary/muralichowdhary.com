@@ -26,7 +26,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     iconDark: "https://cdn.simpleicons.org/medium/ffffff",
     title: "Medium",
     subtitle: "@muralisudireddy",
-    href: "https://medium.com/@muralisudireddy",
+    href: "https://medium.com/@muralisudireddy0",
   },
   {
     icon: "https://cdn.simpleicons.org/gmail/EA4335",

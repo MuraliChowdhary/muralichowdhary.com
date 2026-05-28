@@ -1,7 +1,7 @@
 import Parser from "rss-parser"
 import { cache } from "react"
 
-const MEDIUM_FEED_URL = "https://medium.com/feed/@devanshtiwari365"
+const MEDIUM_FEED_URL = "https://medium.com/feed/@muralisudireddy0"
 
 // Hide Medium posts published after this date. Newer posts live on this blog
 // natively and shouldn't double-appear via the Medium feed.
