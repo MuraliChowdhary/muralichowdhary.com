@@ -1,34 +1,30 @@
 # Murali Sudireddy
 
-> AI Product Engineer. Available for freelance and consulting. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end. Based in Delhi NCR, India.
+> AI Product Engineer. Available for freelance and consulting. Writes about cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end-to-end. Based in Hyderabad, India.
 
 ## Identity
 
 - Full Name: Murali Sudireddy
-- Location: Delhi NCR, India
-- Role: AI Product Engineer. Available for freelance and consulting.
-- Education: B.Tech Information Technology, Inderprastha Engineering College (2021-2025); Product Manager Fellowship, NextLeap (2026)
+- Location: Hyderabad, India
+- Role: Software Engineer. Available for freelance and consulting.
+- Education: B.Tech Computer Science and Engineering, Cvr College Engineering College (2022-2026)
 
 ## About
 
-Murali Sudireddy is a product engineer who sits at the intersection of product thinking and AI infrastructure. He started coding to pay his own college fees, taught himself through open source, and built a freelance practice before moving into product roles at AI startups.
+Murali Sudireddy is an AI & Full-Stack Engineer who works at the intersection of software engineering, scalable systems, and product thinking. He builds full-stack applications, backend architectures, and AI-powered products focused on solving real-world problems through practical technology.
 
-At Helium, he built e-commerce personalization systems that delivered 20-30% merchant sales uplift and reduced recommendation latency by 60%. He co-founded Zashit (AI credit card reward optimizer, applied to YC) and built Metis (trymetis.app), an AI-powered stock analysis tool for Indian swing traders (side project, Feb to Apr 2026).
+He started coding with a strong curiosity to build useful systems and gradually expanded into backend engineering, automation, cloud integrations, and LLM-powered applications. Over time, his focus evolved beyond just shipping features toward understanding users, workflows, and building products that create meaningful impact.
 
-He has shipped 50+ products, 8 across Saudi Arabia, and specializes in building AI products from zero to one. He builds the full technical stack (infra, AI, frontend) and also thinks product (user research, validation, prioritization).
+Murali has worked across projects in healthcare, education, social impact, event management, attendance systems, and AI-powered experiences. His work includes platforms such as Anadhseva, BloodWeb, SecureGuard, Attendance Management Systems, Virtual Tour experiences, and AI-driven product workflows. He enjoys building systems end-to-end — from frontend experiences and scalable APIs to databases, authentication, integrations, and intelligent automation.
+
+With experience across the MERN stack, Python, databases, APIs, cloud platforms, and AI tooling, he is particularly interested in scalable backend systems, LLM orchestration, product-focused engineering, and startup building. He believes strong products come from combining technical execution with problem understanding, business thinking, and user empathy.
 
 ## Experience
-
-- Metis (Feb 2026 to Apr 2026, side project): AI-powered stock analysis for Indian swing traders. Surveyed 70+ traders before writing code. Shipped concept to beta in 20 days. 7 free tools targeting 650K+ monthly searches. Stopped Apr 2026.
-- Product Manager Fellow @ NextLeap (Jan 2026 - Apr 2026): Product discovery, prioritization frameworks, user interviews, outcome metrics.
-- Freelance Software Engineer @ OSIT (Jun 2024 - Dec 2025): 8 enterprise products across 5 domains for Saudi Arabia. Built annseva (471 API endpoints, 194 pages, 26 days), Nateeq AI (multi-tenant voice AI platform, 6 weeks), Deliverist AI Chatbot (conversational commerce with RAG).
-- Software Engineer (Product-Facing) @ Helium (Apr 2024 - Aug 2025): E-commerce personalization. Built recommendation engines, behavioral tracking. 20-30% merchant sales uplift. 60% latency reduction.
-- Co-Founder & Product Engineer @ Zashit (Feb 2025 - Jun 2025): AI credit card reward optimizer. 50+ waitlist signups. Built OCR pipeline. Applied to YC.
-- Freelance Full Stack Developer (2022-2024): 50+ global clients. 2L/month at peak.
+- Freelance Full Stack Developer :  global clients. 2L/month at peak.
 
 ## Technical Skills
 
-- Languages: TypeScript, JavaScript, Python, Go, SQL
+- Languages: TypeScript, JavaScript, Python, SQL
 - Frontend: React, Next.js (App Router), React Native, Tailwind CSS
 - Backend: Node.js, NestJS, Express, REST APIs
 - AI/LLM: OpenAI, Claude, Gemini, Vercel AI SDK, RAG pipelines, tool calling, agents, prompt orchestration
@@ -36,21 +32,32 @@ He has shipped 50+ products, 8 across Saudi Arabia, and specializes in building 
 - Databases: PostgreSQL, MongoDB, Redis
 - Infrastructure: Docker, Vercel, Git
 
+
 ## Product Skills
 
-- Product Discovery, User Research, User Interviews
-- PRDs, RICE Prioritization, Feature Scoping
-- Competitive Analysis, Go-to-Market Strategy
-- MVP Validation, Unit Economics Analysis
-- Funnel Analytics (AARRR), OKRs/KPIs, PostHog
+- Product Discovery, User Research, Requirement Gathering
+- Feature Scoping, Prioritization, Product Thinking
+- PRDs, Documentation, Workflow Planning
+- MVP Validation, Iteration, Problem Solving
+- Competitive Analysis, Market Research, Business Thinking
+- Funnel Analytics, User Behavior Understanding, Product Metrics
+- AI Product Development, LLM Integrations, Automation
+- Backend Architecture, APIs, Scalable Systems
+- Startup Building, Zero-to-One Product Development
+
 
 ## Key Projects
 
-- Metis (trymetis.app, side project Feb to Apr 2026): AI stock analysis for Indian traders. 70+ traders surveyed. 7 technical indicators. Multi-model (Claude + Gemini).
-- annseva: Enterprise facility management. 471 API endpoints, 194 pages, 8 languages, built in 26 days.
-- Nateeq AI: White-label voice AI platform. Multi-tenant SaaS. ElevenLabs ConvAI. Built in 6 weeks.
-- Deliverist AI Chatbot: Conversational commerce for logistics. RAG pricing, 5 AI tools, bilingual.
-- Hisaab: Open-source trading journal. Zero backend, zero signup. PWA.
+- winqroo: Influencer collaboration platform connecting brands and creators through intelligent discovery, search, and campaign workflows. Built full-stack features for creator onboarding, collaboration management, campaign flows, and scalable backend APIs.
+
+- annseva: Community-driven platform designed to connect people in need of food support with donors and volunteers. Built to simplify food requests, coordination, and accessibility with a focus on real-world social impact.
+
+- pickandpartner AI: AI-powered voice and communication platform enabling businesses to streamline customer interactions through conversational workflows, automation, and intelligent assistant experiences.
+
+- therabee AI Chatbot: Conversational AI assistant designed to improve customer engagement and support workflows using natural language interactions, multilingual communication, and AI-assisted responses.
+
+- nexcore: Developer collaboration and project management platform for discovering teammates, managing projects, and communicating in real time. Built features around workspace collaboration, channels, project coordination, and team discovery.
+
 
 ## Links
 

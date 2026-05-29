@@ -1,84 +1,105 @@
 # Murali Sudireddy — Full Context
 
-> AI Product Engineer. Available for freelance and consulting. I ship AI products end-to-end, from user research to production.
+> AI & Full-Stack Engineer. Available for freelance and consulting. I build scalable backend systems, AI-powered applications, and real-world products end-to-end.
 
 ## Identity
 
 Name: Murali Sudireddy
-Location: Delhi NCR, India
-Role: AI Product Engineer. Available for freelance and consulting.
-Email: devanshtiwari365@gmail.com
-Website: https://www.devanshtiwari.com
+Location: Andhra Pradesh, India
+Role: AI & Full-Stack Engineer. Available for freelance and consulting.
+Resume: https://drive.google.com/file/d/14iZWUvdxyBsfS6CmKmzI0NCgyQWtxU7R/view?usp=sharing
 
-## What Makes Devansh Different
+## What Makes Murali Different
 
-- Can both build and think product — rare in the PM world
-- Has shipped 50+ real products, not just case studies
-- Has founded, failed, freelanced, and worked in startups — seen the full picture
-- Moved to PM not because it's trendy, but because it directly attacks his weakness
-- Started coding out of guilt (JEE didn't work out), built his way to 2L/month freelancing, then realized execution isn't enough — you need to know what to build and why
+* Combines engineering with product thinking — builds systems while understanding user problems and business needs
+* Builds full-stack products end-to-end across frontend, backend, databases, APIs, and AI integrations
+* Interested in solving real-world problems through scalable systems, automation, and practical engineering
+* Strong builder mindset focused on execution, iteration, and continuous learning
+* Interested in product thinking, startup building, user understanding, and solving meaningful problems
+* Builds practical systems instead of unnecessary complexity
 
 ## Detailed Experience
 
-### Metis — Side Project (Feb 2026 to Apr 2026)
-AI-powered stock analysis for Indian swing traders. Stopped Apr 2026 to focus on other engagements.
-- Drove product-led acquisition: analyzed 10+ competitors, identified 5 zero-competition keyword gaps, shipped 7 free tools targeting 650K+ monthly searches
-- Optimized unit economics: hybrid model routing reduced per-session API cost by 52% ($0.25 to $0.12)
-- Instrumented 18 AARRR metrics across 21 touchpoints
-- Shipped 0-to-1 from concept to 25-user beta in 20 days across 20 product decisions
-- URL: https://trymetis.app
+### Winqroo — Full-Stack Product
 
-### Helium — Software Engineer, Product-Facing (Apr 2024 - Aug 2025)
-AI startup focused on e-commerce personalization for Shopify merchants.
-- Led product discovery for conversational commerce: trigger timing, user journey placements, context memory patterns
-- Contributed to Pulse personalization product: 20-25% merchant sales uplift
-- Identified 25-second recommendation latency bottleneck, refactored pipeline for 60% reduction
-- Defined and shipped AI Shopify Agent MVP using RICE framework
+Influencer collaboration platform connecting brands and creators through intelligent discovery, search, and campaign workflows.
 
-### Zashit — Co-Founder & Product Engineer (Feb 2025 - Jun 2025)
-AI credit card reward optimizer.
-- Identified Rs 10,000 Cr unused rewards problem through user discovery interviews
-- Validated demand with 50+ waitlist signups
-- Built MVP including OCR pipeline for transaction data extraction
-- Co-founder misalignment led to shutdown — learned importance of structured decision-making
+* Built full-stack workflows for creator onboarding, brand collaboration, campaign management, and discovery
+* Worked on scalable backend systems, APIs, authentication, and data management
+* Focused on improving creator-brand interactions through better workflows and platform usability
+* Built product experiences around collaboration, onboarding, and business workflows
 
-### OSIT — Freelance Software Engineer (Jun 2024 - Dec 2025)
-8 products shipped across Saudi Arabia market.
-- End-to-end product scoping and delivery across 5 domains (logistics, AI, enterprise SaaS, government, HR)
-- Built a 25-module platform in 4 weeks as sole engineer
-- Bilingual Arabic/English with RTL support (3,000+ translation keys)
-- SEO targeting 95+ Lighthouse scores
+### Annseva — Social Impact Platform
 
-### Freelance — Full Stack Developer (2022-2024)
-- 50+ global clients
-- At peak: 2L/month, closed projects worth 5-6 lakh
-- Built MVPs, validation products, and full platforms
+Community-driven platform helping connect food donors, volunteers, and people in need through technology.
+
+* Built workflows for food requests, coordination, and accessibility
+* Focused on solving a meaningful real-world problem using practical engineering
+* Worked on full-stack architecture, APIs, authentication, and scalable backend systems
+* Designed the platform around accessibility, usability, and social impact
+
+### PickAndPartner — AI-Powered Platform
+
+AI-powered communication and workflow platform focused on conversational experiences and automation.
+
+* Built intelligent workflows and AI-assisted communication systems
+* Worked on backend logic, integrations, APIs, authentication, and scalable architecture
+* Focused on automation, business workflows, and conversational experiences
+* Explored AI integrations and product usability for practical business use cases
+
+### Therabee — Therapy & Consultation Platform
+
+Digital therapy platform designed to connect patients and therapists through virtual consultations and accessible care experiences.
+
+* Built workflows enabling patients and therapists to join video consultations and manage therapy interactions
+* Worked on appointment flows, authentication, backend systems, APIs, and platform usability
+* Focused on creating seamless experiences for online therapy sessions, communication, and accessibility
+* Built product experiences around virtual healthcare consultations, user workflows, and practical usability
+
+
+### Nexcore — Developer Collaboration Platform
+
+Developer collaboration and project management platform for discovering teammates, managing projects, and real-time communication.
+
+* Built collaboration-focused workflows for project management and team discovery
+* Worked on real-time communication, workspace interactions, and scalable product architecture
+* Focused on improving developer collaboration and productivity experiences
+* Built frontend and backend systems supporting team coordination workflows
 
 ## Technical Stack
 
-TypeScript, JavaScript, Python, React, Next.js, Node.js, Tailwind CSS, OpenAI/LLM, PostgreSQL, MongoDB, Redis, Prisma, Drizzle, Docker, Vercel, Git, Figma, PostHog
+TypeScript, JavaScript, Python, PHP, C++, React, Next.js, Node.js, Express.js, Tailwind CSS, shadcn/ui, MongoDB, MySQL, PostgreSQL, Redis, Prisma, Drizzle ORM, Docker, AWS, Cloudflare, Vercel, Git, GitHub, OpenAI APIs, LLM Integrations, REST APIs, Three.js, Figma, New Relic
+
+## Product Skills
+
+* Product Discovery, User Research, Requirement Gathering
+* Feature Scoping, Prioritization, Product Thinking
+* PRDs, Documentation, Workflow Planning
+* MVP Validation, Iteration, Problem Solving
+* Competitive Analysis, Market Research, Business Thinking
+* Funnel Analytics, User Behavior Understanding, Product Metrics
+* AI Product Development, LLM Integrations, Automation
+* Backend Architecture, APIs, Scalable Systems
+* Startup Building, Zero-to-One Product Development
 
 ## Education
 
-- NextLeap Product Manager Fellowship (Jan 2026 - Apr 2026)
-- Inderprastha Engineering College, B.Tech IT (2021-2025)
+* B.Tech in Information Technology
+* Salesforce Administrator Virtual Internship
+* Google Generative AI Virtual Internship
+* Prompt Design in Vertex AI Skill Badge
+* Certifications in Agile Scrum, NoSQL, Project Management, Email Writing, Time Management, and related technologies
 
 ## Target Domains
 
-1. E-commerce & Retail Tech — built personalization systems, recommendation engines, Shopify SDKs
-2. Fintech & Financial Behavior Products — founded Zashit, built Metis (side project, ended Apr 2026)
-3. AI/ML Products — hands-on with LLM APIs, RAG systems, AI agents
-4. SaaS & Developer Tools — shipped 8 enterprise products across Saudi Arabia
+1. AI & LLM Applications — intelligent workflows, automation, and AI-powered systems
+2. Backend & Scalable Systems — APIs, databases, authentication, and architecture
+3. Full-Stack Product Engineering — building end-to-end products using modern technologies
+4. Startups & Product Thinking — solving problems through engineering and user understanding
+5. Social Impact & Real-World Products — technology solving meaningful problems
 
-## Content & Social
+## Content & Learning
 
-- LinkedIn: Daily content on product thinking, building in public, engineer-to-PM transition
-- Twitter/X: AI expertise, founder pain, builder proof
-- Medium: Technical articles on development and product
-
-## Pages
-
-- Home: https://www.devanshtiwari.com/
-- Work: https://www.devanshtiwari.com/work
-- Blog: https://www.devanshtiwari.com/blog
-- Resume: https://www.devanshtiwari.com/resume
+* Exploring AI engineering, backend systems, scalable architectures, and startup/product thinking
+* Learning system design, product thinking, and practical software engineering
+* Building projects and continuously improving engineering depth
