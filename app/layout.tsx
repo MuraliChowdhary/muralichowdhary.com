@@ -64,8 +64,8 @@ export const metadata: Metadata = {
     images: [`${siteConfig.siteUrl}/opengraph-image`],
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
     apple: "/profile.png",
   },
   manifest: "/manifest.json",
