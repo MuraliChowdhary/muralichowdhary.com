@@ -49,7 +49,7 @@ type CommandLinkItem = {
 const MENU_LINKS: CommandLinkItem[] = [
   { title: "Home", href: "/", icon: HomeIcon },
   { title: "Work", href: "/work", icon: FolderOpenIcon },
-  { title: "Blog", href: "/blog", icon: FileTextIcon },
+  // { title: "Blog", href: "https://blog.muralichowdhary.com", icon: FileTextIcon },
   { title: "Resume", href: "/resume", icon: FileCodeIcon },
 ]
 
@@ -57,7 +57,7 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
   { title: "About", href: "/#about", icon: UserIcon },
   { title: "Work", href: "/#work", icon: FileCodeIcon },
   { title: "Tech Stack", href: "/#stack", icon: LayersIcon },
-  { title: "Blog", href: "/#blog", icon: FileTextIcon },
+  // { title: "Blog", href: "/#blog", icon: FileTextIcon },
   { title: "Experience", href: "/#experience", icon: BriefcaseBusinessIcon },
   { title: "All Work", href: "/work", icon: FolderOpenIcon },
 ]
