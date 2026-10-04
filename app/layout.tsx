@@ -133,11 +133,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 jobTitle: "Software Engineer",
                 description:
                   "AI product engineer focused on cost-optimized LLM infrastructure, multi-provider routing, and shipping AI products end to end. NextLeap PM Fellowship graduate. Available for freelance and consulting.",
-                email: "mailto:muralisudireddy@gmail.com",
+                email: "mailto:muralisudireddy0@gmail.com",
                 telephone: "+919285555222",
                 address: {
                   "@type": "PostalAddress",
-                  addressLocality: "Warangal Telangana",
+                  addressLocality: "Telangana",
                   addressCountry: "IN",
                 },
                 alumniOf: {

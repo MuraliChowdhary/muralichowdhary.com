@@ -249,11 +249,11 @@ export default function ServicesPage() {
     "@context": "https://schema.org",
     "@type": "Service",
     serviceType: "AI Automation Consulting",
-    provider: { "@id": "https://www.devanshtiwari.com/#person" },
+    provider: { "@id": "https://www.muralichowdhary.com/#person" },
     name: "AI Automation Audit + Build",
     description:
       "1-day AI automation audit for SaaS founders. Find 3 high-ROI automations. Optional 7-day build sprint.",
-    url: "https://www.devanshtiwari.com/services",
+    url: "https://www.muralichowdhary.com/services",
     offers: PRICING_TIERS.map((t) => ({
       "@type": "Offer",
       name: t.name,

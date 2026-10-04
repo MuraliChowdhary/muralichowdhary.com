@@ -1,23 +1,35 @@
-# Contributing to devanshtiwari.com
+# Contributing to muralichowdhary.com
 
 Thanks for wanting to contribute. This guide will get you from zero to your first PR.
 
 ## Table of Contents
 
-- [Quick Start](#quick-start)
-- [Before You Start](#before-you-start)
-- [Project Structure](#project-structure)
-- [What to Contribute](#what-to-contribute)
-- [Development Guidelines](#development-guidelines)
-- [House Rules](#house-rules)
-- [Submitting a PR](#submitting-a-pr)
-- [First Time Contributing?](#first-time-contributing-to-open-source)
+- [Contributing to muralichowdhary.com](#contributing-to-muralichowdharycom)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+  - [Before You Start](#before-you-start)
+  - [Project Structure](#project-structure)
+  - [What to Contribute](#what-to-contribute)
+    - [Welcome](#welcome)
+    - [Not Looking For](#not-looking-for)
+  - [Development Guidelines](#development-guidelines)
+    - [Code Style](#code-style)
+    - [Commits](#commits)
+    - [Testing Your Changes](#testing-your-changes)
+    - [Key Architecture Rules](#key-architecture-rules)
+  - [House Rules](#house-rules)
+    - [Before You Code](#before-you-code)
+    - [Writing Your PR](#writing-your-pr)
+    - [Code Quality](#code-quality)
+  - [Submitting a PR](#submitting-a-pr)
+  - [First Time Contributing to Open Source?](#first-time-contributing-to-open-source)
+  - [License](#license)
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/MuraliChowdhary//devanshtiwari.com.git
-cd devanshtiwari.com
+git clone https://github.com/MuraliChowdhary//muralichowdhary.com.git
+cd muralichowdhary.com
 npm install
 npm run dev
 ```
@@ -27,7 +39,7 @@ Open [localhost:3000](http://localhost:3000). You're live.
 ## Before You Start
 
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md)
-- Check [existing issues](https://github.com/MuraliChowdhary//devanshtiwari.com/issues) to avoid duplicates
+- Check [existing issues](https://github.com/MuraliChowdhary//muralichowdhary.com/issues) to avoid duplicates
 - For new features, **open an issue first** to discuss the approach before writing code
 - For bug fixes and small improvements, feel free to go straight to a PR
 
@@ -155,7 +167,7 @@ npm run format:check
 
 ## First Time Contributing to Open Source?
 
-Look for issues labeled [`good first issue`](https://github.com/MuraliChowdhary//devanshtiwari.com/labels/good%20first%20issue). These are scoped, well-defined tasks that don't require deep knowledge of the codebase.
+Look for issues labeled [`good first issue`](https://github.com/MuraliChowdhary//muralichowdhary.com/labels/good%20first%20issue). These are scoped, well-defined tasks that don't require deep knowledge of the codebase.
 
 If you're stuck, open a draft PR and ask for help. We'd rather help you finish than see you give up.
 

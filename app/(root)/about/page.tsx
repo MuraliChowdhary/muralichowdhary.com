@@ -80,10 +80,10 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     mainEntity: {
-      "@id": "https://www.devanshtiwari.com/#person",
+      "@id": "https://www.muralichowdhary.com/#person",
     },
     name: "About Murali Sudireddy",
-    url: "https://www.devanshtiwari.com/about",
+    url: "https://www.muralichowdhary.com/about",
     description:
       "AI Product Engineer based in Delhi NCR, India. Builds AI products end-to-end, from user research to cost-optimized production. Available for freelance and consulting.",
   }

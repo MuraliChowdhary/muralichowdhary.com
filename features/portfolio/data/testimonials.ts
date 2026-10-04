@@ -11,7 +11,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorTagline: "",
     url: "#",
     quote:
-      "Working with Murali Sudireddy has been an excellent experience. He quickly understands complex requirements, delivers clean and optimized code, and ensures every milestone is completed on time. I highly recommend Devansh for any AI, web, or full-stack development project.",
+      "Working with Murali Sudireddy has been an excellent experience. He quickly understands complex requirements, delivers clean and optimized code, and ensures every milestone is completed on time. I highly recommend Murali for any AI, web, or full-stack development project.",
     date: "2025-10-01",
     isFeatured: true,
   },
@@ -21,7 +21,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorTagline: "",
     url: "#",
     quote:
-      "He has a strong command of React and Next.js, and consistently writes clean, efficient, and maintainable code. Devansh also has a great eye for design and responsiveness. He is highly reliable and delivers high-quality work on or before deadlines.",
+      "He has a strong command of React and Next.js, and consistently writes clean, efficient, and maintainable code. Murali also has a great eye for design and responsiveness. He is highly reliable and delivers high-quality work on or before deadlines.",
     date: "2025-10-01",
   },
 ]

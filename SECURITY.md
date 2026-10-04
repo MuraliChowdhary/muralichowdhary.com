@@ -6,8 +6,8 @@ If you discover a security vulnerability, please report it responsibly.
 
 **Do not open a public GitHub issue.** Instead, use one of these channels:
 
-1. **Preferred:** [GitHub Private Vulnerability Reporting](https://github.com/MuraliChowdhary//devanshtiwari.com/security/advisories/new)
-2. **Email:** devanshtiwari365@gmail.com
+1. **Preferred:** [GitHub Private Vulnerability Reporting](https://github.com/MuraliChowdhary//muralichowdhary.com/security/advisories/new)
+2. **Email:** muralisudireddy0@gmail.com
 
 Include:
 - A description of the vulnerability and its potential impact
@@ -58,7 +58,7 @@ This is a **static Next.js portfolio site** deployed on Vercel. There is no back
 
 ## Supported Versions
 
-Only the latest deployment on `main` at [devanshtiwari.com](https://www.devanshtiwari.com) is supported.
+Only the latest deployment on `main` at [muralichowdhary.com](https://www.muralichowdhary.com) is supported.
 
 ## Recognition
 

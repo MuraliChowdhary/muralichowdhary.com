@@ -61,7 +61,7 @@ export default async function Image({
                 color: "rgba(232,232,232,0.4)",
               }}
             >
-              www.devanshtiwari.com/blog
+              blog.muralichowdhary.com
             </span>
           </div>
 

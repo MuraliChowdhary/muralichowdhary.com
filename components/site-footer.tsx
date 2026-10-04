@@ -68,7 +68,7 @@ export function SiteFooter() {
             <Separator />
 
             <SocialLink
-              href="https://www.linkedin.com/in/devansh-tiwari-3342611a6/"
+              href="https://www.linkedin.com/in/sudireddy-murali-05a10b277/"
               label="LinkedIn"
             >
               <Linkedin className="h-4 w-4" />
@@ -77,7 +77,7 @@ export function SiteFooter() {
             <Separator />
 
             <SocialLink
-              href="mailto:devanshtiwari365@gmail.com"
+              href="mailto:muralisudireddy0@gmail.com"
               label="Email"
             >
               <Mail className="h-4 w-4" />

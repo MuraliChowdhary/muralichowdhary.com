@@ -1,18 +1,18 @@
 <div align="center">
 
 <!-- Replace with your actual screenshot -->
-<a href="https://www.devanshtiwari.com">
+<a href="https://www.muralichowdhary.com">
   <img src=".github/preview-dark.png" alt="Portfolio Preview" width="90%" />
 </a>
 
 <br />
 <br />
 
-# devanshtiwari.com
+# muralichowdhary.com
 
 **A minimal, open-source developer portfolio built with Next.js 15 & React 19.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-devanshtiwari.com-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.devanshtiwari.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-muralichowdhary.com-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.muralichowdhary.com)
 
 <br />
 
@@ -24,10 +24,6 @@
 [![MDX](https://img.shields.io/badge/MDX-FCB32C?style=for-the-badge&logo=mdx&logoColor=000)](https://mdxjs.com)
 
 <br />
-
-[![Stars](https://img.shields.io/github/stars/Devansh-365/devanshtiwari.com?style=flat-square&color=yellow)](https://github.com/MuraliChowdhary//devanshtiwari.com/stargazers)
-[![Forks](https://img.shields.io/github/forks/Devansh-365/devanshtiwari.com?style=flat-square)](https://github.com/MuraliChowdhary//devanshtiwari.com/network/members)
-[![License](https://img.shields.io/github/license/Devansh-365/devanshtiwari.com?style=flat-square)](LICENSE)
 
 </div>
 
@@ -66,8 +62,8 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/MuraliChowdhary//devanshtiwari.com.git
-cd devanshtiwari.com
+git clone https://github.com/MuraliChowdhary//muralichowdhary.com.git
+cd muralichowdhary.com
 
 # Install dependencies
 npm install
@@ -96,7 +92,7 @@ All personal data lives in a few files. Edit these and the entire site updates:
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDevansh-365%2Fdevanshtiwari.com)
+[![Deploy with Vercel](https://vercel.com/button)]
 
 Or deploy manually:
 
@@ -161,10 +157,10 @@ MIT — free to use, modify, and deploy. A star would be appreciated if you find
 
 <div align="center">
 
-**Built by [Murali Sudireddy](https://www.devanshtiwari.com)**
+**Built by [Murali Sudireddy](https://www.muralichowdhary.com)**
 
-[![Twitter](https://img.shields.io/badge/@devansh__0718-000?style=flat-square&logo=x&logoColor=white)](https://x.com/MSudireddy2547)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devansh-tiwari-3342611a6/)
+[![Twitter](https://img.shields.io/badge/@MSudireddy2547?style=flat-square&logo=x&logoColor=white)](https://x.com/MSudireddy2547)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudireddy-murali-05a10b277/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MuraliChowdhary/)
 
 If you found this useful, consider giving it a star

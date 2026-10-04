@@ -2,7 +2,7 @@ import { unstable_cache } from "next/cache"
 
 import { GitHubStars } from "@/components/github-stars"
 
-const SOURCE_CODE_GITHUB_REPO = "Devansh-365/devanshtiwari.com"
+const SOURCE_CODE_GITHUB_REPO = "MuraliChowdhary/muralichowdhary.xyz"
 
 const getStargazerCount = unstable_cache(
   async () => {

@@ -73,7 +73,7 @@ export default async function Image() {
             color: "rgba(232,232,232,0.35)",
           }}
         >
-          <span>www.devanshtiwari.com</span>
+          <span>www.muralichowdhary.com</span>
           <span style={{ color: "rgba(232,232,232,0.15)" }}>|</span>
           <span>50+ products shipped</span>
         </div>
